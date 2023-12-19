@@ -1,11 +1,11 @@
 import React from "react";
 import MarkTitle from "../MarkTitle";
 
-const ProductCard = () => {
+const SectionGrid = ({markText, subHead}) => {
   return (
     <div className=" lg:pt-4">
       <div className="max-container padding-container mx-auto">
-        <MarkTitle />
+       <MarkTitle markText={markText} subHead={subHead} />
 
         <div className="grid-cols-1 sm:grid md:grid-cols-3 ">
           <div className="mx-3 mt-6 flex flex-col rounded-lg bg-gray-10 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] sm:shrink-0 sm:grow sm:basis-0">
@@ -74,4 +74,4 @@ const ProductCard = () => {
   );
 };
 
-export default ProductCard;
+export default SectionGrid;

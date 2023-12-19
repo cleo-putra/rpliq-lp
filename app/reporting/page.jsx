@@ -1,7 +1,7 @@
 import CardRto from "@/components/Home/CardRto";
 import CarouselProduct from "@/components/Product/CarouselProduct";
 import ProductCard from "@/components/Product/ProductCard";
-import ProductTwoCard from "@/components/Product/ProductTwoCard";
+import SectionGrid from "@/components/Reporting/SectionGrid";
 import Image from "next/image";
 import React from "react";
 
@@ -13,14 +13,12 @@ const page = () => {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-xl">
-              <mark className="bg-green-30 p-4">Cloud-Based RPL Software</mark>
-              <h2 className="mt-6 text-[40px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
-                Automated Assessment Tools To Track Student Progress
+              <mark className="bg-green-30 p-4">Simplified Reporting Process</mark>
+              <h2 className="mt-6 text-[38px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
+                RPLiQ Provides Valuable Data For A Better Decision-Making Process
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                RPLiQ is a software that automates and simplifies the entire RPL
-                process for RTOs. RPLiQ is your solution for a modernised,
-                hassle-free qualification journey.
+                RPLiQ simplifies the administrative burden on RTOs and allows them to focus on delivering high-quality education and training,
               </p>
 
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
@@ -39,19 +37,18 @@ const page = () => {
           </div>
           <div className="flex justify-end">
             <Image
-              src="/product-banner.png"
+              src="/reporting-banner.png"
               width={507}
               height={458}
               alt="Product screenshot"
               className="rounded-x"
             />
-          </div>
+          </div>  
         </div>
       </div>
-      <ProductCard markText="Train & Assess" subHead="The Ultimate RPL Automation" />
-      <ProductTwoCard />
-      <ProductCard markText="Enrol & Support" subHead="Reduce Admin Time With RPLIQ" />
+      <SectionGrid markText="Real-Time Tracking" subHead="Flag Any Potential Non-Compliance Issues" />
       <CarouselProduct />
+      <SectionGrid markText="Customisable Software" subHead="RPLIQ can be customised to align with Your specific needs" />
       <CardRto />
     </>
   );
