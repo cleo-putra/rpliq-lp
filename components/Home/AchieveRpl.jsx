@@ -1,29 +1,24 @@
 "use client";
 import { Collapse } from "antd";
 
-const text = (
-  <p style={{ paddingLeft: 24 }}>
-    A dog is a type of domesticated animal. Known for its loyalty and
-    faithfulness, it can be found as a welcome guest in many households across
-    the world.
-  </p>
-);
-
 const items = [
   {
     key: "1",
-    label: "This is panel header 1",
-    children: text,
+    label: "Enroll",
+    children:
+      "By using RPL iQ as your RPL student management system, you’ll reduce your admin cost, increase your assessor’s productivity and efficiency and accelerate the RPL journey for your students in real time. ",
   },
   {
     key: "2",
-    label: "This is panel header 2",
-    children: text,
+    label: "Qualify",
+    children:
+      "RTOs can easily customise documentation requirements based on industry specific requirements, ensuring that evidence portfolios remain aligned with the latest standards and training package requirements. ",
   },
   {
-    key: "3",
+    key: "Certify",
     label: "This is panel header 3",
-    children: text,
+    children:
+      "RPL iQ automates and streamlines the workflow, ensuring streamlined student-assessor interaction and assessment in real-time ready for the issuance of certificates.",
   },
 ];
 
@@ -41,7 +36,7 @@ const AchieveRpl = () => {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <p className="lg:mt-12 xs:mt-0 text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl">
-                Achieve A Seamless RPL Journey
+                How RPL iQ Accelerate the RPL process
               </p>
 
               <div>

@@ -13,14 +13,15 @@ const CardRto = () => {
           </h3>
 
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Our RPLiQ team can help you go through the system and answer any
-            questions your have about our RTO software.
+            Request a demo and our team at RPL iQ can help you get setup, go
+            through the system configurations, and answer any questions you have
+            about our RPL student management system.
           </p>
 
           <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
             <button className="flexCenter gap-3" type="button">
               <label className="font-bold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
-                Start Free Trial
+                Start Trial
               </label>
             </button>
             <button className="flexCenter gap-3" type="button">

@@ -8,21 +8,20 @@ import Image from "next/image";
 
 const dataPartner = [
   {
-    name: "Jess Wongso",
+    name: "Jessica",
     desc: "As an RTO manager, navigating the intricate landscape of compliance is a daily challenge. RPLiQ has been a game-changer for our institution. The ASQA-compliant features ensure that we are always in alignment with regulatory standards.",
   },
   {
-    name: "Jess Wongso",
-    desc: "The software set-up process was easy, with a user-friendly interface and step-by-step guidance. The customisable dashboard has become our control center, allowing us to arrange tools and insights according to our workflows. The real-time analytics provide a level of visibility we never thought possible. ",
+    name: "Marcus",
+    desc: "The software set-up process was easy, with a user-friendly interface and step-by-step guidance. The customisable dashboard has become our control center, allowing us to arrange tools and insights according to our workflows. The real-time analytics provide a level of visibility we never thought possible.",
   },
   {
-    name: "Jess Wongso",
-    desc: "As an RTO manager, navigating the intricate landscape of compliance is a daily challenge. RPLiQ has been a game-changer for our institution. The ASQA-compliant features ensure that we are always in alignment with regulatory standards.",
+    name: "Moe",
+    desc: "The platform’s role-specific customisation has saved us so much time and money. Students find the journey seamless, with easy evidence submission and direct communication with Assessors. As an RTO manager, the ability to customise templates & billing within the platform has been a game-changer.",
   },
-
   {
-    name: "Jess Wongso",
-    desc: "Example 1",
+    name: "Moe",
+    desc: "The platform’s role-specific customisation has saved us so much time and money. Students find the journey seamless, with easy evidence submission and direct communication with Assessors. As an RTO manager, the ability to customise templates & billing within the platform has been a game-changer.",
   },
 ];
 

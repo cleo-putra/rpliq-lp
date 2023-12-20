@@ -16,21 +16,25 @@ export default function Home() {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-xl">
               <mark className="bg-green-30 p-4">
-                Streamline RPL For Students & RTOs
+                Streamlined RPL SMS for RTOs
               </mark>
               <h2 className="mt-6 text-[40px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
-                Simplify Your Qualification Journey With RPLiQ
+                RPL Faster, Cheaper And More Compliant!
               </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                RPLiQ is a software that automates and simplifies the entire RPL
-                process for RTOs. RPLiQ is your solution for a modernised,
-                hassle-free qualification journey.
+              <p className="mt-6 text-base leading-8 text-gray-600">
+                Start processing your student’s RPL’s using RPL iQ, the only
+                streamlined RPL system in the VET sector. RPL iQ automates and
+                simplifies the entire RPL process by reducing your overhead cost
+                and, increasing your institute productivity
+                <br />
+                By adopting a more modernised streamlined solution your
+                institute will gain a competitive edge and process RPL faster.
               </p>
 
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
                 <button className="flexCenter gap-3" type="button">
                   <label className="bold-16 whitespace-nowrap btn_dark_green lg:text-lg xs:text-xs">
-                    Start Free Trial
+                    Start Trial
                   </label>
                 </button>
                 <button className="flexCenter gap-3" type="button">
@@ -58,7 +62,7 @@ export default function Home() {
       <AchieveRpl />
       {/* Banner 2 */}
       {/* Banner */}
-      <div className="overflow-hidden bg-white py-24 sm:py-32 max-container padding-container">
+      <div className="overflow-hidden bg-white pt-10 max-container padding-container">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="flex justify-start">
             <Image
@@ -73,14 +77,14 @@ export default function Home() {
           <div className="lg:pr-8">
             <div className="lg:max-w-xl">
               <h2 className="text-[30px] font-bold text-black-50	lg:max-w-lg">
-                The Ultimate RPL Automation Platform For Training Organisations
-                & Students
+                RPL Software Tailored for RTOs’ Regulatory Standards!
               </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                RPLiQ automates and accelerates the entire RPL process. For
-                students, it’s a seamless path to qualifications, and for
-                Registered Training Organisations (RTOs), it’s an efficient tool
-                to simplify RPL assessments.
+              <p className="mt-6 text-base leading-8 text-gray-600">
+                RPL iQ automates and accelerates the entire RPL process. The
+                platform’s architecture is designed with a compliance-first
+                mindset, offering customisable templates, dynamic adaptability,
+                and real-time tracking to meet the rigorous requirements set by
+                regulatory bodies
               </p>
 
               <dl className="mt-4 max-w-xl space-y-2 text-base leading-7 text-gray-600 lg:max-w-none">
@@ -106,9 +110,7 @@ export default function Home() {
                       className="absolute left-1 top-1 h-5 w-5"
                     />
                   </dt>
-                  <dd className="inline">
-                    VET & CRICOS compliant (change wording)
-                  </dd>
+                  <dd className="inline">VET compliant</dd>
                 </div>
                 <div className="relative pl-9">
                   <dt className="inline font-semibold text-gray-900">
@@ -121,7 +123,7 @@ export default function Home() {
                     />
                   </dt>
                   <dd className="inline">
-                    Embrace a modernised, future-ready RPL solution
+                    Automated workflows that expedite the RPL journey
                   </dd>
                 </div>
               </dl>
@@ -129,7 +131,7 @@ export default function Home() {
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
                 <button className="flexCenter gap-3" type="button">
                   <label className="font-bold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
-                    Start Free Trial
+                    Start Trial
                   </label>
                 </button>
               </div>
@@ -139,14 +141,14 @@ export default function Home() {
       </div>
       {/* Banner 3 */}
       {/* Banner */}
-      <div className="overflow-hidden bg-white py-24 sm:py-32 max-container padding-container">
+      <div className="overflow-hidden bg-white py-32 max-container padding-container">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8">
             <div className="lg:max-w-xl">
               <h2 className="text-[30px] font-bold text-black-50	lg:max-w-lg">
-                Unlock A World Of Benefits With RPLiQ
+                RPLiQ Saves Time, Cost and Effort
               </h2>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-base leading-8 text-gray-600">
                 We understand that the journey to qualification can be complex,
                 time-consuming, and burdensome. That’s why RPLiQ is here to
                 streamline and automate every step of the way, offering you
@@ -207,7 +209,7 @@ export default function Home() {
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
                 <button className="flexCenter gap-3" type="button">
                   <label className="font-bold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
-                    Start Free Trial
+                    Start Trial
                   </label>
                 </button>
               </div>

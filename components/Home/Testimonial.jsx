@@ -7,9 +7,9 @@ const Testimonial = () => {
       <div className="bg-black-50">
         <div className="max-container padding-container-testimonial lg:py-20 xs:py-10">
           <p className="text-white text-2xl">
-            RPLiQ is your secret weapon for simplifying RPL. We spend less time
-            gathering evidence and I can shift my focus on growing my business.
-            Thank you RPLiQ!{" "}
+            RPL iQ is our secret weapon for simplifying RPL. Our students were
+            able to upload their evidence and get assessed in real time. Thank
+            you RPL iQ!{" "}
           </p>
 
           <div className="mt-10 flex gap-4">
@@ -21,9 +21,9 @@ const Testimonial = () => {
               alt="photo"
             />
             <div className="text-base">
-              <div className="font-semibold text-white">Judith Black</div>
+              <div className="font-semibold text-white">Darren T</div>
 
-              <div className="text-white text-xs">CEO of Workcation</div>
+              <div className="text-white text-xs">RTO Director</div>
             </div>
           </div>
         </div>
@@ -32,9 +32,9 @@ const Testimonial = () => {
       <div className="bg-green-50">
         <div className="max-container padding-container-testimonial lg:py-20 xs:py-10">
           <p className="text-black-50 text-2xl">
-            RPLiQ is your secret weapon for simplifying RPL. We spend less time
-            gathering evidence and I can shift my focus on growing my business.
-            Thank you RPLiQ!{" "}
+            Our RTO is now processing double the RPL applications and reduced
+            our admin staff cost, the system does everything! <br />
+            AMAZING!!!{" "}
           </p>
 
           <div className="mt-10 flex gap-4">
@@ -46,9 +46,9 @@ const Testimonial = () => {
               alt="photo"
             />
             <div className="text-base">
-              <div className="font-semibold text-black-50">Judith Black</div>
+              <div className="font-semibold text-black-50">Harry L</div>
 
-              <div className="text-black-50 text-xs">CEO of Workcation</div>
+              <div className="text-black-50 text-xs">RTO Director</div>
             </div>
           </div>
         </div>
