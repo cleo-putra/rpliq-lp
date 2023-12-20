@@ -110,7 +110,7 @@ const data = [
 
 const SocialStar = () => {
   return (
-    <div className="overflow-hidden bg-white padding-container">
+    <div className="max-container padding-container bg-white">
       <div className="lg:mx-36 xs:mx-0 max-w-7xl">
         <div className="lg:pr-8 ">
           <div className="grid xs:grid-cols-1 lg:grid-cols-4">

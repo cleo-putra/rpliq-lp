@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       {/* Banner */}
-      <div className="overflow-hidden bg-white py-24 sm:py-32 max-container padding-container">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div className="max-container padding-container bg-white py-24 sm:py-32">
+        <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-xl">
               <mark className="bg-green-30 p-4">
