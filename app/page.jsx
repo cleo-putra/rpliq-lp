@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       {/* Banner */}
-      <div className="max-container padding-container bg-white py-24 sm:py-32">
+      <div className="max-container padding-container bg-white lg:py-24 xs:py-14">
         <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-xl">
@@ -21,7 +21,7 @@ export default function Home() {
               <h2 className="mt-6 text-[40px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
                 RPL Faster, Cheaper And More Compliant!
               </h2>
-              <p className="mt-6 text-base leading-8 text-gray-600">
+              <p className="my-6 text-base leading-8 text-gray-600">
                 Start processing your student’s RPL’s using RPL iQ, the only
                 streamlined RPL system in the VET sector. RPL iQ automates and
                 simplifies the entire RPL process by reducing your overhead cost
@@ -33,25 +33,23 @@ export default function Home() {
 
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
                 <button className="flexCenter gap-3" type="button">
-                  <label className="bold-16 whitespace-nowrap btn_dark_green lg:text-lg xs:text-xs">
+                  <label className="font-bold whitespace-nowrap btn_dark_green lg:text-lg xs:text-xs">
                     Start Trial
                   </label>
                 </button>
                 <button className="flexCenter gap-3" type="button">
-                  <label className="bold-16 whitespace-nowrap btn_white_green lg:text-lg xs:text-xs">
+                  <label className="font-bold whitespace-nowrap btn_white_green lg:text-lg xs:text-xs">
                     Request Demo
                   </label>
                 </button>
               </div>
             </div>
           </div>
-          <div className="flex justify-end">
-            <Image
+          <div className="flex lg:justify-end xs:justify-center">
+            <img
               src="/home-1.png"
-              width={507}
-              height={458}
               alt="Product screenshot"
-              className="rounded-x"
+              className="rounded-x lg:w-[533px] lg:h-[458px] xs:w-[333px] xs:h-[260px]"
             />
           </div>
         </div>
@@ -62,9 +60,9 @@ export default function Home() {
       <AchieveRpl />
       {/* Banner 2 */}
       {/* Banner */}
-      <div className="overflow-hidden bg-white pt-10 max-container padding-container">
+      <div className="bg-white pt-10 max-container padding-container">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div className="flex justify-start">
+          <div className="flex justify-start lg:order-first xs:order-last">
             <Image
               src="/home-2.png"
               width={486}
@@ -76,7 +74,7 @@ export default function Home() {
 
           <div className="lg:pr-8">
             <div className="lg:max-w-xl">
-              <h2 className="text-[30px] font-bold text-black-50	lg:max-w-lg">
+              <h2 className="lg:text-[30px] xs:text-xl font-bold text-black-50	lg:max-w-lg">
                 RPL Software Tailored for RTOs’ Regulatory Standards!
               </h2>
               <p className="mt-6 text-base leading-8 text-gray-600">
@@ -128,7 +126,7 @@ export default function Home() {
                 </div>
               </dl>
 
-              <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
+              <div className="mt-6 flex justify-normal">
                 <button className="flexCenter gap-3" type="button">
                   <label className="font-bold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
                     Start Trial
@@ -141,11 +139,11 @@ export default function Home() {
       </div>
       {/* Banner 3 */}
       {/* Banner */}
-      <div className="overflow-hidden bg-white py-32 max-container padding-container">
+      <div className="overflow-hidden bg-white lg:py-32 xs:py-10 max-container padding-container">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8">
             <div className="lg:max-w-xl">
-              <h2 className="text-[30px] font-bold text-black-50	lg:max-w-lg">
+              <h2 className="lg:text-[30px] xs:text-xl font-bold text-black-50	lg:max-w-lg">
                 RPLiQ Saves Time, Cost and Effort
               </h2>
               <p className="mt-6 text-base leading-8 text-gray-600">
@@ -206,7 +204,7 @@ export default function Home() {
                 </div>
               </dl>
 
-              <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
+              <div className="mt-6 flex justify-normal gap-4">
                 <button className="flexCenter gap-3" type="button">
                   <label className="font-bold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
                     Start Trial

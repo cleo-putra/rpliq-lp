@@ -54,7 +54,7 @@ body {
   }
 
   .padding-container-testimonial {
-    @apply px-6 lg:px-28 3xl:px-0;
+    @apply xs:px-10 lg:px-36;
   }
 
   .flexCenter {
@@ -216,6 +216,8 @@ body {
   background: url('/arrow-left.png') no-repeat!important;
   width: 35px!important;
   height: 35px!important;
+  z-index: 99;
+  margin-left:5px;
 
   &::before {
     display: none;

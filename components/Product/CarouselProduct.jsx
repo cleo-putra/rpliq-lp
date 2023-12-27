@@ -65,26 +65,27 @@ const RtoProduct = () => {
         <h3 className="mt-6 text-3xl font-bold text-center">
           The Ultimate RPL Automation{" "}
         </h3>
-        <Slider {...settings} className="py-10 px-20 bg-gray-100">
+        <Slider
+          {...settings}
+          className="lg:py-10 sm:py-2 lg:px-20 sm:px-0 bg-gray-100"
+        >
           {dataPartner.map((item) => (
             <Card
               bordered={true}
               className="bg-gray-100"
               style={{ backgroundColor: "red", minHeight: "450px!important" }}
             >
-              <div className="grid grid-cols-3 gap-4">
-                <div className="col-span-1">
+              <div className="grid lg:grid-cols-3 sm:grid-col-1 gap-4">
+                <div className="col-span-1 lg:order-first xs:order-last">
                   <h4 className="text-xl font-semibold my-10">{item.title}</h4>
                   <p>{item.desc}</p>
                 </div>
-                <div className="col-span-2">
-                  <div className="mt-10 flex gap-4">
-                    <img
-                      className="p-4 mx-auto w-[570px] h-[360px]"
-                      src="./laptop-mock.png"
-                      alt="photo"
-                    />
-                  </div>
+                <div className="col-span-2 sm:order-first lg:order-last">
+                  <img
+                    className="mx-auto lg:w-[570px] lg:h-[360px] xs:w-[270px] xs:h-[180px]"
+                    src="./laptop-mock-2.png"
+                    alt="photo"
+                  />
                 </div>
               </div>
             </Card>

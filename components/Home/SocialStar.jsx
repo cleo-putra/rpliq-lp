@@ -112,26 +112,24 @@ const SocialStar = () => {
   return (
     <div className="max-container padding-container bg-white">
       <div className="lg:mx-36 xs:mx-0 max-w-7xl">
-        <div className="lg:pr-8 ">
-          <div className="grid xs:grid-cols-1 lg:grid-cols-4">
-            {data.map((item) => (
-              <Col className="lg:col=span-4 xs:col-span-1">
-                <Card
-                  title={item.title}
-                  headStyle={{
-                    backgroundColor: "#2E2E2E",
-                    border: 0,
-                  }}
-                  bodyStyle={{
-                    backgroundColor: "#F2F2F2",
-                    border: 0,
-                  }}
-                >
-                  {item.content}
-                </Card>
-              </Col>
-            ))}
-          </div>
+        <div className="grid xs:grid-cols-1 lg:grid-cols-4">
+          {data.map((item) => (
+            <Col className="col-span-1 lg:my-0 xs:my-2">
+              <Card
+                title={item.title}
+                headStyle={{
+                  backgroundColor: "#2E2E2E",
+                  border: 0,
+                }}
+                bodyStyle={{
+                  backgroundColor: "#F2F2F2",
+                  border: 0,
+                }}
+              >
+                {item.content}
+              </Card>
+            </Col>
+          ))}
         </div>
       </div>
     </div>

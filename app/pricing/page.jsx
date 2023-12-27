@@ -15,7 +15,7 @@ const Pricing = () => {
             </h3>
             <p className="mt-5">
               Our pricing is designed to be flexible and adaptable, catering to
-              what your RTO needs precisely.
+              what your RTO needs and anyone can afford it.
             </p>
           </div>
         </div>

@@ -15,8 +15,8 @@ const items = [
       "RTOs can easily customise documentation requirements based on industry specific requirements, ensuring that evidence portfolios remain aligned with the latest standards and training package requirements. ",
   },
   {
-    key: "Certify",
-    label: "This is panel header 3",
+    key: "3",
+    label: "Certify",
     children:
       "RPL iQ automates and streamlines the workflow, ensuring streamlined student-assessor interaction and assessment in real-time ready for the issuance of certificates.",
   },
@@ -30,21 +30,20 @@ const AchieveRpl = () => {
     };
   }
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-24 padding-container">
+    <div className="bg-white lg:py-24 xs:py-10 padding-container">
       <div className="mx-auto max-w-7xl">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="lg:mt-12 xs:mt-0 text-3xl font-bold tracking-tight text-gray-900 sm:text-2xl">
+              <p className="lg:mt-12 xs:mt-0 lg:text-3xl font-bold tracking-tight text-gray-900 xs:text-2xl">
                 How RPL iQ Accelerate the RPL process
               </p>
 
-              <div>
+              <div className="mt-5">
                 <Collapse
                   items={items}
                   bordered={false}
                   defaultActiveKey={["1"]}
-                  style={{ margin: "10px", fontSize: "30px" }}
                   size="large"
                   expandIcon={({ isActive }) => (
                     <img
