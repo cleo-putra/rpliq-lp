@@ -40,7 +40,7 @@ const Faq = () => {
             expandIcon={({ isActive }) => (
               <img
                 src={isActive ? "./icon/rpl.png" : "./icon/zoom-white.png"}
-                className="w-[20px] h-[20px]"
+                className="lg:w-[20px] lg:h-[20px] xs:w-auto xs:h-auto"
               />
             )}
           />

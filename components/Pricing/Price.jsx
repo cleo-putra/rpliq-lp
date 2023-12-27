@@ -2,10 +2,10 @@ import React from "react";
 
 const Price = () => {
   return (
-    <div className="mx-auto px-6 mt-20">
+    <div className="mx-auto px-6 lg:mt-20 xs:mt-0">
       <section className="mb-32">
         <div className="grid px-6 md:px-12 lg:grid-cols-3 xl:px-32">
-          <div className="p-0 py-12">
+          <div className="p-0 py-12 lg:order-1 xs:order-2">
             <div className="block h-full rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:rounded-tr-none lg:rounded-br-none bg-green-30">
               <div className="p-6 text-center">
                 <h3 className="mb-2 text-xl uppercase">
@@ -63,7 +63,7 @@ const Price = () => {
           </div>
 
           <div
-            className="block h-full rounded-lg bg-green-50 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700"
+            className="block h-full rounded-lg bg-green-50 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:order-2 xs:order-first"
             style={{ zIndex: "1" }}
           >
             <img
@@ -111,7 +111,7 @@ const Price = () => {
             </div>
           </div>
 
-          <div className="py-12">
+          <div className="py-12 order-3">
             <div className="block h-full rounded-lg bg-green-30 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:rounded-tl-none lg:rounded-bl-none">
               <div className="p-6 text-center">
                 <h3 className="mb-4 text-xl uppercase">

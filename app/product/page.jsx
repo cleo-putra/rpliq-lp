@@ -4,6 +4,7 @@ import CardProduct from "@/components/Product/CardProduct";
 import ProductTwoCard from "@/components/Product/ProductTwoCard";
 import Image from "next/image";
 import React from "react";
+import CardFeatures from "@/components/Product/CardFeatures";
 
 const ProductCard1 = [
   {
@@ -93,6 +94,7 @@ const page = () => {
           </div>
         </div>
       </div>
+      <CardFeatures />
       <ProductTwoCard />
       <CardProduct
         markText="Online & Real-Time"

@@ -13,7 +13,7 @@ const TablePrice = () => {
           ensuring that you only pay for the features and capabilities that
           align with your operational needs.
         </p>
-        <section className="text-gray-700 body-font overflow-hidden border-t border-gray-200">
+        <section className="text-gray-700 body-font overflow-hidden border-t border-gray-200 lg:mt-20 xs:mt-6">
           <div className="container px-5 py-10 mx-auto flex flex-wrap">
             <div className="lg:w-2/5  hidden lg:block bg-gray-10">
               <div className="mt-px border-t border-gray-300  border-b border-l rounded-tl-lg rounded-bl-lg overflow-hidden">
@@ -33,7 +33,7 @@ const TablePrice = () => {
                   Real-time progress tracking for students
                 </p>
                 <p className=" bg-gray-10 text-gray-900 h-12 px-4 flex items-center justify-start">
-                  Automated assessment tools & templates
+                  Instant verification tool for students
                 </p>
                 <p className="bg-gray-10 text-gray-900 h-12 px-4 flex items-center justify-start">
                   Chat feature between RTO’s & students
@@ -118,7 +118,21 @@ const TablePrice = () => {
                     </svg>
                   </span>
                 </p>
-                <p className=" bg-white text-gray-600 text-center h-12 flex items-center justify-center"></p>
+                <p className="bg-white h-12 text-gray-600 px-6 text-center leading-relaxed flex items-center justify-center">
+                  <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      className="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>
+                </p>{" "}
                 <p className="bg-white text-gray-600 text-center h-12 flex items-center justify-center"></p>
                 <p className=" bg-white text-gray-600 text-center h-12 flex items-center justify-center"></p>
                 <p className="bg-white text-gray-600 text-center h-12 flex items-center justify-center"></p>
