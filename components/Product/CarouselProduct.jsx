@@ -8,8 +8,8 @@ import Image from "next/image";
 
 const dataPartner = [
   {
-    title: "ASQA-Compliant Design",
-    desc: "At the core of RPLiQ’s functionality is a commitment to regulatory compliance. The platform is meticulously designed to align with the standards set by the Australian Skills Quality Authority (ASQA) and other regulatory bodies. The customisable templates, evidence requirements, and documentation processes within RPLiQ are all crafted with a compliance-first mindset, providing RTOs with the tools they need to meet and exceed regulatory expectations.",
+    title: "ASQA-Compliant Workflow",
+    desc: "At the core of RPL iQ’s functionality is a commitment to regulatory compliance. The platform is meticulously designed to align with the standards set by the Australian Skills Quality Authority (ASQA) and other regulatory bodies. As any other student management system RPL iQ was designed and crafted with a compliance-first mindset, providing RTOs with the tools they need to meet and exceed regulatory expectations.",
   },
   {
     title: "ASQA-Compliant Design",
@@ -59,11 +59,11 @@ const RtoProduct = () => {
     <div className="bg-gray-100 to-white flex my-20">
       <div className="max-container padding-container py-8 grid max-w-2xl grid-cols-1">
         <p className="text-center mt-10">
-          <mark className="bg-green-30 p-4">Train & Assess</mark>
+          <mark className="bg-green-30 p-4">Ensure Compliance</mark>
         </p>
 
         <h3 className="mt-6 text-3xl font-bold text-center">
-          The Ultimate RPL Automation{" "}
+          Built With Compliance In Mind{" "}
         </h3>
         <Slider
           {...settings}
