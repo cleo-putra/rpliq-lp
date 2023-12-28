@@ -5,6 +5,7 @@ import ProductTwoCard from "@/components/Product/ProductTwoCard";
 import Image from "next/image";
 import React from "react";
 import CardFeatures from "@/components/Product/CardFeatures";
+import ProductAutomation from "@/components/Product/Automation";
 
 const ProductCard1 = [
   {
@@ -107,6 +108,7 @@ const page = () => {
         subHead="Reporting Requirements"
         cardContent={ProductCard2}
       />
+      <ProductAutomation />
       <CardRto />
     </>
   );

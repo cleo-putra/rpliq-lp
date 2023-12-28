@@ -1,104 +1,113 @@
 import React from "react";
+import MarkTitle from "../MarkTitle";
+
+const FeaturesContent = [
+  {
+    key: "1",
+    title: "Interactive Dashboard",
+    content: "Customisable dashboard with real-time analytics",
+    image: "./icon/product/dashboard.png",
+  },
+  {
+    key: "2",
+    title: "Online Enrolment & LLN",
+    content:
+      "Students will complete streamlined enrolment and LLN process assessed in real-time",
+    image: "./icon/product/enrollment.png",
+  },
+  {
+    key: "3",
+    title: "Automated ID & Verification",
+    image: "./icon/product/idcard.png",
+    content: "Student ID is verified through an instant verification platform",
+  },
+  {
+    key: "4",
+    title: "System Integrations",
+    image: "./icon/product/setting.png",
+    content: "Integration capabilities through API",
+  },
+  {
+    key: "5",
+    title: "Chat Module",
+    image: "./icon/product/chat.png",
+    content:
+      "Students gain access to chat modules to converse with trainer for instant support and trainer feedback",
+  },
+  {
+    key: "6",
+    title: "Automation",
+    image: "./icon/product/automation.png",
+    content:
+      "A variety of automation assist in accelerating the RPL process such as obtaining references and verifications",
+  },
+  {
+    key: "7",
+    title: "Real-time Assessments",
+    image: "./icon/product/enrollment.png",
+    content:
+      "Enabling assessors to make assessment judgments in real-time as students upload and submit their evidence",
+  },
+  {
+    key: "8",
+    title: "Progress Bar's",
+    image: "./icon/product/progress-bar.png",
+    content:
+      "Providing the student with a percentage of each action item to be completed, motivating the student to progress",
+  },
+];
 
 const CardFeatures = () => {
   return (
     <>
-      <div className="bg-gray-10 max-container padding-container mx-auto lg:pt-12 xs:pt-0 lg:my-16 xs:my-5">
+      <div className="max-container padding-container mx-auto lg:pt-8 xs:pt-0 lg:my-16 xs:my-5">
         <div id="features" className="mx-auto max-w-6xl">
-          <p className="text-center text-base font-semibold leading-7 text-primary-500">
-            Features
-          </p>
-          <h2 className="text-center font-display text-3xl font-bold tracking-tight text-slate-900 md:text-4xl">
-            Writing has never been so easy
-          </h2>
+          <MarkTitle
+            markText=" RPL iQ Features"
+            subHead="The Ultimate RPL Automation"
+          />
           <ul className="mt-16 grid grid-cols-1 gap-6 text-center text-slate-700 md:grid-cols-4">
-            <li className="rounded-xl bg-white px-6 py-8 shadow-sm">
+            {FeaturesContent.map((item) => (
+              <li
+                className="rounded-xl bg-[#6FEFC1]/30 px-6 py-8 shadow-sm"
+                key={item.key}
+              >
+                <img src={item.image} alt="" className="mx-auto h-auto w-10" />
+                <h3 className="my-3 font-display font-medium">{item.title}</h3>
+                <p className="mt-1.5 text-sm leading-6 text-secondary-500">
+                  {item.content}
+                </p>
+              </li>
+            ))}
+            <li></li>
+            <li className="rounded-xl bg-[#6FEFC1]/30 px-6 py-8 shadow-sm">
               <img
-                src="https://www.svgrepo.com/show/530438/ddos-protection.svg"
+                src="./icon/product/helmet.png"
                 alt=""
-                className="mx-auto h-10 w-10"
+                className="mx-auto h-auto w-10"
               />
               <h3 className="my-3 font-display font-medium">
-                Powered by ChatGPT
+                Industry-specific Evidence
               </h3>
               <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                the cutting-edge language model that makes interactions a
-                breeze. With its user-friendly interface, effortlessly tap into
-                the world of AI-generated text.
+                Students get to see examples of industry-specific evidence
+                requirements developed in consultation with industry experts
               </p>
             </li>
-            <li className="rounded-xl bg-white px-6 py-8 shadow-sm">
+            <li className="rounded-xl bg-[#6FEFC1]/30 px-6 py-8 shadow-sm">
               <img
-                src="https://www.svgrepo.com/show/530442/port-detection.svg"
+                src="./icon/product/helmet.png"
                 alt=""
-                className="mx-auto h-10 w-10"
+                className="mx-auto h-auto w-10"
               />
-              <h3 className="my-3 font-display font-medium">Easy to use</h3>
+              <h3 className="my-3 font-display font-medium">Reporting</h3>
               <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                Simply input your subject, click the generate button, and the
-                result will appear in seconds just like magick.
+                There are various reporting capabilities for the RTO to ensure
+                compliance with the Standards for Registered Training
+                Organisations
               </p>
             </li>
-            <li className="rounded-xl bg-white px-6 py-8 shadow-sm">
-              <img
-                src="https://www.svgrepo.com/show/530444/availability.svg"
-                alt=""
-                className="mx-auto h-10 w-10"
-              />
-              <h3 className="my-3 font-display font-medium">Custom settings</h3>
-              <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                We offer advanced customization. You can freely combine options
-                like roles, languages, publish, tones, lengths, and formats.
-              </p>
-            </li>
-            <li className="rounded-xl bg-white px-6 py-8 shadow-sm">
-              <a href="/pricing" className="group">
-                <img
-                  src="https://www.svgrepo.com/show/530440/machine-vision.svg"
-                  alt=""
-                  className="mx-auto h-10 w-10"
-                />
-                <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
-                  Free trial
-                </h3>
-                <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                  We offer a free trial service without login. We provide many
-                  payment options including pay-as-you-go and subscription.
-                </p>
-              </a>
-            </li>
-            <li className="rounded-xl bg-white px-6 py-8 shadow-sm">
-              <a href="/templates" className="group">
-                <img
-                  src="https://www.svgrepo.com/show/530450/page-analysis.svg"
-                  alt=""
-                  className="mx-auto h-10 w-10"
-                />
-                <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
-                  90+ templates
-                </h3>
-                <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                  We offer many templates covering areas such as writing,
-                  education, lifestyle and creativity to inspire your potential.{" "}
-                </p>
-              </a>
-            </li>
-            <li className="rounded-xl bg-white px-6 py-8 shadow-sm">
-              <a href="/download" className="group">
-                <img
-                  src="https://www.svgrepo.com/show/530453/mail-reception.svg"
-                  alt=""
-                  className="mx-auto h-10 w-10"
-                />
-                <h3 className="my-3 font-display font-medium group-hover:text-primary-500">
-                  Use Anywhere
-                </h3>
-                <p className="mt-1.5 text-sm leading-6 text-secondary-500">
-                  Our product is compatible with multiple platforms including
-                  Web, Chrome, Windows and Mac, you can use MagickPen anywhere.
-                </p>
-              </a>
-            </li>
+            <li></li>
           </ul>
         </div>
       </div>
