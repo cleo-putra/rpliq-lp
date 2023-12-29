@@ -1,34 +1,29 @@
 "use client";
 import React, { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
-import { DownOutlined } from "@ant-design/icons";
+import { DownOutlined, MenuOutlined } from "@ant-design/icons";
 import { NAV_LINKS } from "@/constants";
 
 const products = [
   {
-    name: "Analytics",
+    name: "Product Overview",
     description: "Get a better understanding of your traffic",
-    href: "#",
+    href: "/product",
   },
   {
-    name: "Engagement",
+    name: "Compliance",
     description: "Speak directly to your customers",
-    href: "#",
+    href: "/compliance",
   },
   {
-    name: "Security",
+    name: "Reporting",
     description: "Your customers’ data will be safe and secure",
-    href: "#",
+    href: "/reporting",
   },
   {
-    name: "Integrations",
+    name: "RPL",
     description: "Connect with third-party tools",
-    href: "#",
-  },
-  {
-    name: "Automations",
-    description: "Build strategic funnels that will convert",
-    href: "#",
+    href: "/rpl",
   },
 ];
 const callsToAction = [
@@ -50,7 +45,7 @@ export default function HeadeNew() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5">
             <img
               className="h-8 w-auto"
               src="/rpliq-logo.png"
@@ -61,10 +56,10 @@ export default function HeadeNew() {
         <div className="flex lg:hidden">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
             onClick={() => setMobileMenuOpen(true)}
           >
-            <span className="sr-only">Open main menu</span>
+            <MenuOutlined className="text-white" />
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
@@ -91,7 +86,7 @@ export default function HeadeNew() {
                   {products.map((item) => (
                     <div
                       key={item.name}
-                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
+                      className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-green-50"
                     >
                       <div className="flex-auto">
                         <a
@@ -106,7 +101,7 @@ export default function HeadeNew() {
                     </div>
                   ))}
                 </div>
-                <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
+                {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
                   {callsToAction.map((item) => (
                     <a
                       key={item.name}
@@ -116,7 +111,7 @@ export default function HeadeNew() {
                       {item.name}
                     </a>
                   ))}
-                </div>
+                </div> */}
               </Popover.Panel>
             </Transition>
           </Popover>
@@ -141,6 +136,8 @@ export default function HeadeNew() {
           </a>
         </div>
       </nav>
+
+      {/* mobile bar */}
       <Dialog
         as="div"
         className="lg:hidden"
@@ -148,23 +145,21 @@ export default function HeadeNew() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-10" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="bg-black-50 fixed inset-y-0 right-0 z-10 w-full overflow-y-auto px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+            <a href="/" className="-m-1.5 p-1.5">
               <img
                 className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
+                src="/rpliq-logo.png"
+                alt="Rpliq mobile"
               />
             </a>
             <button
               type="button"
-              className="-m-2.5 rounded-md p-2.5 text-gray-700"
+              className="-m-2.5 rounded-md p-2.5 text-white"
               onClick={() => setMobileMenuOpen(false)}
             >
-              <span className="sr-only">Close menu</span>
-              {/* <XMarkIcon className="h-6 w-6" aria-hidden="true" /> */}
+              <MenuOutlined className="text-white" />
             </button>
           </div>
           <div className="mt-6 flow-root">
@@ -173,8 +168,8 @@ export default function HeadeNew() {
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
-                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">
-                        Producta
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white">
+                        Products
                         <DownOutlined
                           className={classNames(
                             open ? "rotate-180" : "",
@@ -189,7 +184,7 @@ export default function HeadeNew() {
                             key={item.name}
                             as="a"
                             href={item.href}
-                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white"
                           >
                             {item.name}
                           </Disclosure.Button>
@@ -198,31 +193,24 @@ export default function HeadeNew() {
                     </>
                   )}
                 </Disclosure>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Features
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Marketplace
-                </a>
-                <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                >
-                  Company
-                </a>
+                {NAV_LINKS.map((link) => (
+                  <a
+                    key={link.key}
+                    href={link.href}
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 
+              text-white hover:text-green-50 transition-all"
+                    aria-current="page"
+                  >
+                    {link.label}
+                  </a>
+                ))}
               </div>
-              <div className="py-6">
+              <div className="py-2">
                 <a
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="text-black bg-green-50 hover:bg-green-50/90 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                 >
-                  Log in
+                  Get started
                 </a>
               </div>
             </div>
