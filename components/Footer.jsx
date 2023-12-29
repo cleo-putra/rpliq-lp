@@ -5,7 +5,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="flexCenter bg-black-50 py-10">
+    <footer className="flexCenter bg-black-50 py-10 lg:px-0 xs:px-6">
       <div className="padding-container max-container flex w-full flex-col gap-10">
         <div className="flex flex-col items-start justify-center gap-[10%] md:flex-row">
           <div className="w-72">
@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex flex-wrap gap-10 sm:justify-normal md:flex-1">
+          <div className="flex flex-wrap gap-10 sm:justify-normal md:flex-1 lg:pt-0 xs:pt-5">
             {FOOTER_LINKS.map((columns) => (
               <FooterColumn title={columns.title}>
                 <ul className="text-base flex flex-col gap-4">
