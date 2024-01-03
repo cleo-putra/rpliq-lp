@@ -3,6 +3,7 @@ import React, { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { DownOutlined, MenuOutlined } from "@ant-design/icons";
 import { NAV_LINKS } from "@/constants";
+import Link from "next/link";
 
 const products = [
   {
@@ -45,13 +46,13 @@ export default function HeadeNew() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <Link href="/" className="-m-1.5 p-1.5">
             <img
               className="h-8 w-auto"
               src="/rpliq-logo.png"
               alt="RPLIQ LOGO"
             />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -89,13 +90,13 @@ export default function HeadeNew() {
                       className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-green-50"
                     >
                       <div className="flex-auto">
-                        <a
+                        <Link
                           href={item.href}
                           className="block font-semibold text-gray-900"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
-                        </a>
+                        </Link>
                         <p className="mt-1 text-gray-600">{item.description}</p>
                       </div>
                     </div>
@@ -117,14 +118,14 @@ export default function HeadeNew() {
           </Popover>
 
           {NAV_LINKS.map((link) => (
-            <a
+            <Link
               key={link.key}
               href={link.href}
               className="text-base font-semibold leading-6 text-white hover:text-green-50 transition-all"
               aria-current="page"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </Popover.Group>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
@@ -147,13 +148,13 @@ export default function HeadeNew() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="bg-black-50 fixed inset-y-0 right-0 z-10 w-full overflow-y-auto px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="/" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <img
                 className="h-8 w-auto"
                 src="/rpliq-logo.png"
                 alt="Rpliq mobile"
               />
-            </a>
+            </Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-white"
@@ -194,7 +195,7 @@ export default function HeadeNew() {
                   )}
                 </Disclosure>
                 {NAV_LINKS.map((link) => (
-                  <a
+                  <Link
                     key={link.key}
                     href={link.href}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 
@@ -202,7 +203,7 @@ export default function HeadeNew() {
                     aria-current="page"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 ))}
               </div>
               <div className="py-2">
