@@ -14,7 +14,7 @@ const items = [
         rel="noopener noreferrer"
         href="/product"
       >
-        Product Overview
+        Solutions
       </a>
     ),
   },
@@ -75,7 +75,7 @@ const Navbar = () => {
               onClick={(e) => e.preventDefault()}
             >
               <Space>
-                Product
+                Solutions
                 <DownOutlined />
               </Space>
             </a>

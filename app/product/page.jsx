@@ -58,7 +58,7 @@ const page = () => {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-xl lg:p-0">
               <mark className="bg-green-30 p-4">RPL Streamlined</mark>
-              <h2 className="mt-6 lg:text-[40px] xs:text-3xl font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
+              <h2 className="mt-6 lg:text-[40px] xs:text-3xl font-bold text-green-50 lg:leading-snug xs:lg:leading-snug tracking-wide lg:max-w-lg">
                 RPL iQ, Who Are We, And What We Can Do For You?
               </h2>
               <p className="mt-6 text-base leading-8 text-gray-600">
@@ -88,7 +88,7 @@ const page = () => {
           </div>
           <div className="flex justify-end">
             <img
-              src="/product-banner.png"
+              src="/product-banner.jpg"
               alt="Product screenshot"
               className="rounded-x lg:w-[583px] lg:h-[508px] xs:w-[266px] xs:h-[228px] mx-auto"
             />

@@ -4,7 +4,7 @@ import { Collapse } from "antd";
 const items = [
   {
     key: "1",
-    label: "Enroll",
+    label: "Enrol",
     children:
       "By using RPL iQ as your RPL student management system, you’ll reduce your admin cost, increase your assessor’s productivity and efficiency and accelerate the RPL journey for your students in real time. ",
   },
@@ -58,7 +58,7 @@ const AchieveRpl = () => {
             </div>
           </div>
           <img
-            src="/rpl-laptop-1.png"
+            src="/rpl-laptop-1.jpg"
             alt="Product screenshot"
             className="w-[48rem] max-w-none sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width="2432"

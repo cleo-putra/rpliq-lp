@@ -16,13 +16,15 @@ export default function Home() {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-xl">
               <mark className="bg-green-30 p-4">
-              Recognition Prior Learning
+                Recognition Prior Learning
               </mark>
               <h2 className="mt-6 text-[40px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
-              Experience The Ease Of RPL With RPLiQ
+                Experience The Ease Of RPL With RPLiQ
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-              RPLiQ a transformative tool that accelerates qualification attainment, enhances communication between students and RTOs, and ensures compliance with industry regulations
+                RPLiQ a transformative tool that accelerates qualification
+                attainment, enhances communication between students and RTOs,
+                and ensures compliance with industry regulations
               </p>
 
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
@@ -41,7 +43,7 @@ export default function Home() {
           </div>
           <div className="flex justify-end">
             <Image
-              src="/rpl-banner.png"
+              src="/rpl-banner.jpg"
               width={507}
               height={458}
               alt="Product screenshot"
@@ -56,7 +58,7 @@ export default function Home() {
       <AchieveRpl />
       {/* Partner Slider */}
       <PartnerSlider />
-      
+
       <CardRto />
     </>
   );

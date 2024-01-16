@@ -18,19 +18,19 @@ const Footer = () => {
             </h4>
             <div className="grid grid-cols-3 gap-0">
               <Image
-                src="/icon/fb-green.png"
+                src="/icon/fb-icon.svg"
                 alt="logo"
                 width={40}
                 height={40}
               />
               <Image
-                src="/icon/yt-green.png"
+                src="/icon/yt-icon.svg"
                 alt="logo"
                 width={40}
                 height={40}
               />
               <Image
-                src="/icon/linkedin-green.png"
+                src="/icon/linkedin-icon.svg"
                 alt="logo"
                 width={40}
                 height={40}

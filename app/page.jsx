@@ -47,7 +47,7 @@ export default function Home() {
           </div>
           <div className="flex lg:justify-end xs:justify-center">
             <img
-              src="/home-1.png"
+              src="/home-1.svg"
               alt="Product screenshot"
               className="rounded-x lg:w-[533px] lg:h-[458px] xs:w-[333px] xs:h-[260px]"
             />
