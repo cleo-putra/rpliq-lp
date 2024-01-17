@@ -1,11 +1,9 @@
-import Button from "@/components/Button";
 import AchieveRpl from "@/components/Home/AchieveRpl";
 import CardRto from "@/components/Home/CardRto";
 import PartnerSlider from "@/components/Home/PartnerSlider";
 import SocialStar from "@/components/Home/SocialStar";
 import Testimonial from "@/components/Home/Testimonial";
 import Image from "next/image";
-import { Routes, Route } from "react-router-dom";
 
 export default function Home() {
   return (

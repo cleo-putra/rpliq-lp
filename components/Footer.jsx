@@ -59,7 +59,7 @@ const Footer = () => {
 
         <div className="border bg-gray-20" />
         <p className="regular-14 w-full text-center text-white">
-          2023 RPLiQ | All rights reserved
+          2024 RPLiQ | All rights reserved
         </p>
       </div>
     </footer>

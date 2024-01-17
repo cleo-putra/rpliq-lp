@@ -1,6 +1,5 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: "/blogs", key: "blogs", label: "Blogs" },
   { href: "/pricing", key: "pricing", label: "Pricing" },
   { href: "/", key: "login", label: "Login" },
   { href: "/contact-us", key: "Request Demos", label: "Request Demo" },
@@ -21,18 +20,22 @@ export const FOOTER_LINKS = [
   {
     title: "Quick Links",
     links: [
-      { href: "/blogs", key: "blogs", label: "Blogs" },
       { href: "/pricing", key: "pricing", label: "Pricing" },
       { href: "/", key: "login", label: "Login" },
       { href: "/contact-us", key: "Request Demos", label: "Request Demo" },
     ],
   },
   {
-    title: "Product",
+    title: "Solutions",
     links: [{ href: "/product", key: "product", label: "Product Overview" },
     { href: "/compliance", key: "compliance", label: "Compliance" },
-    { href: "/reporting", key: "reporting", label: "Reporting" },
-    { href: "/rpl", key: "rpl", label: "RPL" },],
+    { href: "/rpl", key: "rpl", label: "RPL" },
+    { href: "/rto", key: "rto", label: "RTO" },],
+  },
+  {
+    title: "Resources",
+    links: [{ href: "/reporting", key: "reporting", label: "Reporting" },
+    { href: "/blogs", key: "blogs", label: "Blogs" },],
   },
 ];
 

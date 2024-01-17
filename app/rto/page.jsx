@@ -11,12 +11,16 @@ const page = () => {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-xl">
-              <mark className="bg-green-30 p-4">Registered Training Organisation</mark>
+              <mark className="bg-green-30 p-4">
+                Registered Training Organisation
+              </mark>
               <h2 className="mt-6 text-[40px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
-              Crafted Exclusively For REGISTERED Training Organisations
+                Crafted Exclusively For REGISTERED Training Organisations
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-              By automating processes, ensuring compliance, and prioritising user experience, RPLiQ stands as the go-to choice for RTOs seeking an efficient and hassle-free RPL experience.
+                By automating processes, ensuring compliance, and prioritising
+                user experience, RPLiQ stands as the go-to choice for RTOs
+                seeking an efficient and hassle-free RPL experience.
               </p>
 
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
@@ -35,7 +39,7 @@ const page = () => {
           </div>
           <div className="flex justify-end">
             <Image
-              src="/rto-banner.png"
+              src="/rto-banner.jpg"
               width={507}
               height={458}
               alt="Product screenshot"

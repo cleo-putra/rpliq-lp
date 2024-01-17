@@ -8,25 +8,43 @@ import Link from "next/link";
 const products = [
   {
     name: "Product Overview",
-    description: "Get a better understanding of your traffic",
+    description: "Empowering Futures, Recognizing Your Journey",
     href: "/product",
   },
   {
     name: "Compliance",
-    description: "Speak directly to your customers",
+    description:
+      "Empowering Ambitions, Igniting Potential: Your Journey, Your Success as a Student",
     href: "/compliance",
   },
   {
-    name: "Reporting",
-    description: "Your customers’ data will be safe and secure",
-    href: "/reporting",
-  },
-  {
     name: "RPL",
-    description: "Connect with third-party tools",
+    description: "Recognition of Prior Learning, Your Gateway to Success",
     href: "/rpl",
   },
+  {
+    name: "RTO",
+    description:
+      "Elevate Your Training Experience with SaaS Innovation for Registered Training Organizations",
+    href: "/rto",
+  },
 ];
+
+const resources = [
+  {
+    name: "Reporting",
+    description:
+      "Navigating Your Educational Journey with Precision and Clarity",
+    href: "/reporting",
+  },
+
+  {
+    name: "Blogs",
+    description: "News & advice from out experts",
+    href: "/blogs",
+  },
+];
+
 const callsToAction = [
   { name: "Watch demo", href: "#" },
   { name: "Contact sales", href: "#" },
@@ -106,17 +124,54 @@ export default function HeadeNew() {
                         </div>
                       ))}
                     </div>
-                    {/* <div className="grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50">
-                  {callsToAction.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="flex items-center justify-center gap-x-2.5 p-3 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-100"
-                    >
-                      {item.name}
-                    </a>
-                  ))}
-                </div> */}
+                  </Popover.Panel>
+                </Transition>
+              </>
+            )}
+          </Popover>
+
+          <Popover className="relative">
+            {({ open }) => (
+              <>
+                <Popover.Button className="flex items-center gap-x-1 text-base font-semibold leading-6 text-white hover:text-green-50 transition-all">
+                  Resources
+                  <DownOutlined
+                    className="h-5 w-5 flex-none text-gray-400"
+                    aria-hidden="true"
+                  />
+                </Popover.Button>
+
+                <Transition
+                  as={Fragment}
+                  enter="transition ease-out duration-200"
+                  enterFrom="opacity-0 translate-y-1"
+                  enterTo="opacity-100 translate-y-0"
+                  leave="transition ease-in duration-150"
+                  leaveFrom="opacity-100 translate-y-0"
+                  leaveTo="opacity-0 translate-y-1"
+                >
+                  <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
+                    <div className="p-4">
+                      {resources.map((item) => (
+                        <div
+                          key={item.name}
+                          className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-green-50"
+                        >
+                          <div className="flex-auto">
+                            <Link
+                              href={item.href}
+                              className="block font-semibold text-gray-900"
+                            >
+                              {item.name}
+                              <span className="absolute inset-0" />
+                            </Link>
+                            <p className="mt-1 text-gray-600">
+                              {item.description}
+                            </p>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
                   </Popover.Panel>
                 </Transition>
               </>
@@ -187,6 +242,34 @@ export default function HeadeNew() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2">
                         {[...products, ...callsToAction].map((item) => (
+                          <Disclosure.Button
+                            key={item.name}
+                            as="a"
+                            href={item.href}
+                            className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-white"
+                          >
+                            {item.name}
+                          </Disclosure.Button>
+                        ))}
+                      </Disclosure.Panel>
+                    </>
+                  )}
+                </Disclosure>
+                <Disclosure as="div" className="-mx-3">
+                  {({ open }) => (
+                    <>
+                      <Disclosure.Button className="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white">
+                        Resources
+                        <DownOutlined
+                          className={classNames(
+                            open ? "rotate-180" : "",
+                            "h-5 w-5 flex-none"
+                          )}
+                          aria-hidden="true"
+                        />
+                      </Disclosure.Button>
+                      <Disclosure.Panel className="mt-2 space-y-2">
+                        {[...resources, ...callsToAction].map((item) => (
                           <Disclosure.Button
                             key={item.name}
                             as="a"
