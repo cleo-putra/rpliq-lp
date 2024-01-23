@@ -1,9 +1,11 @@
+"use client";
 import AchieveRpl from "@/components/Home/AchieveRpl";
 import CardRto from "@/components/Home/CardRto";
 import PartnerSlider from "@/components/Home/PartnerSlider";
 import SocialStar from "@/components/Home/SocialStar";
 import Testimonial from "@/components/Home/Testimonial";
 import Image from "next/image";
+import ReadMoreReact from "read-more-react";
 
 export default function Home() {
   return (
@@ -19,16 +21,22 @@ export default function Home() {
               <h2 className="mt-6 text-[40px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
                 RPL Faster, Cheaper And More Compliant!
               </h2>
-              <p className="my-6 text-base leading-8 text-gray-600">
+              <div className="my-6 text-base leading-8 text-gray-600">
                 Start processing your student’s RPL’s using RPL iQ, the only
                 streamlined RPL system in the VET sector. RPL iQ automates and
                 simplifies the entire RPL process by reducing your overhead cost
-                and, increasing your institute productivity
-                <br />
-                By adopting a more modernised streamlined solution your
-                institute will gain a competitive edge and process RPL faster.
-              </p>
-
+                and, increasing your institute productivity.
+                <ReadMoreReact
+                  className="text-green-50 cursor-pointer"
+                  min={0}
+                  ideal={0}
+                  max={1}
+                  text={
+                    "By adopting a more modernised streamlined solution your institute will gain a competitive edge and process RPL faster."
+                  }
+                  readMoreText="Read more.."
+                />
+              </div>
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
                 <button className="flexCenter gap-3" type="button">
                   <label className="font-bold whitespace-nowrap btn_dark_green lg:text-lg xs:text-xs">

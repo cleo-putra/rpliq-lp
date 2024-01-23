@@ -36,7 +36,7 @@ const AchieveRpl = () => {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <p className="lg:mt-12 xs:mt-0 lg:text-3xl font-bold tracking-tight text-gray-900 xs:text-2xl">
-                How RPL iQ Accelerate the RPL process
+                How RPL iQ Accelerate The RPL Process
               </p>
 
               <div className="mt-5">

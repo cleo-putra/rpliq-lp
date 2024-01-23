@@ -6,6 +6,7 @@ import Image from "next/image";
 import React from "react";
 import CardFeatures from "@/components/Product/CardFeatures";
 import ProductAutomation from "@/components/Product/Automation";
+import EnsureCompliance from "@/components/Product/EnsureCompliance";
 
 const ProductCard1 = [
   {
@@ -102,7 +103,8 @@ const page = () => {
         subHead="Reduce manual processing With RPL iQ"
         cardContent={ProductCard1}
       />
-      <CarouselProduct />
+      {/* <CarouselProduct /> */}
+      <EnsureCompliance />
       <CardProduct
         markText="Track & Report"
         subHead="Reporting Requirements"

@@ -56,7 +56,7 @@ const TablePrice = () => {
               {/* col 1 */}
               <div className="lg:w-1/3 lg:mt-px w-full mb-10 lg:mb-0 border-2 border-gray-300 lg:border-none rounded-lg lg:rounded-none">
                 <div className="px-2 text-center h-20 flex flex-col items-center justify-center bg-white">
-                  <h3 className="font-bold text-xl pt-4">Starter</h3>
+                  <h3 className="font-bold text-xl pt-4">Fixed</h3>
                 </div>
                 <p className="bg-white text-gray-600 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-300">
                   <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">

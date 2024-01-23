@@ -44,7 +44,7 @@ const FeaturesContent = [
   {
     key: "7",
     title: "Real-time Assessments",
-    image: "./icon/product/enrollment.svg",
+    image: "./icon/product/time.svg",
     content:
       "Enabling assessors to make assessment judgments in real-time as students upload and submit their evidence",
   },
