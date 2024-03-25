@@ -6,7 +6,7 @@ const items = [
     key: "1",
     label: "Enrol",
     children:
-      "By using RPL iQ as your RPL student management system, you’ll reduce your admin cost, increase your assessor’s productivity and efficiency and accelerate the RPL journey for your students in real time. ",
+      "RPLiQ automates the enrolment process, significantly reducing administrative requirements accelerating the student journey from start to finish.",
   },
   {
     key: "2",
@@ -18,7 +18,7 @@ const items = [
     key: "3",
     label: "Certify",
     children:
-      "RPL iQ automates and streamlines the workflow, ensuring streamlined student-assessor interaction and assessment in real-time ready for the issuance of certificates.",
+      "RPLiQ provides certification feature, allowing RTOs to issue digital certificates instantly.",
   },
 ];
 
@@ -35,8 +35,8 @@ const AchieveRpl = () => {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
-              <p className="lg:mt-12 xs:mt-0 lg:text-3xl font-bold tracking-tight text-gray-900 xs:text-2xl">
-                How RPL iQ Accelerate The RPL Process
+              <p className="lg:mt-12 xs:mt-0 lg:text-2xl font-bold tracking-tight text-gray-900 xs:text-2xl">
+                RPL: Streamlined | Simplified | Online
               </p>
 
               <div className="mt-5">

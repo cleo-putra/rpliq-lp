@@ -73,7 +73,7 @@ const PartnerSlider = () => {
     <div className="bg-gradient-to-b from-[#eafaf4] to-white flex">
       <div className="max-container padding-container py-8 grid max-w-2xl grid-cols-1">
         <p className="text-center lg:mt-4 xs:mt-0 md:text-2xl px-5 xs:text-lg font-semibold tracking-tight text-gray-900 sm:text-2xl">
-          Trusted By Our Training Organisation Partners
+          Trusted By Our Partner RTO's
         </p>
         <Slider {...settings} className="py-10 lg:px-20 xs:px-4">
           {dataPartner.map((item) => (

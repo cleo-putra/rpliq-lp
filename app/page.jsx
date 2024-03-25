@@ -15,15 +15,13 @@ export default function Home() {
         <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-xl">
-              <mark className="bg-green-30 p-4">
-                Streamlined RPL SMS for RTOs
-              </mark>
-              <h2 className="mt-6 text-[40px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
-                RPL Faster, Cheaper And More Compliant!
+              <mark className="bg-green-30 p-4">Cloud-based RPL Software</mark>
+              <h2 className="mt-6 text-[34px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
+                RPLiQ: Transforming RPL Faster | Cheaper | Compliant
               </h2>
               <div className="my-6 text-base leading-8 text-gray-600">
-                Start processing your student’s RPL’s using RPL iQ, the only
-                streamlined RPL system in the VET sector. RPL iQ automates and
+                Start processing your student’s RPL’s using RPLiQ, the only
+                streamlined RPL system in the VET sector. RPLiQ automates and
                 simplifies the entire RPL process by reducing your overhead cost
                 and, increasing your institute productivity.
                 <ReadMoreReact
@@ -40,11 +38,6 @@ export default function Home() {
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
                 <button className="flexCenter gap-3" type="button">
                   <label className="font-bold whitespace-nowrap btn_dark_green lg:text-lg xs:text-xs">
-                    Start Trial
-                  </label>
-                </button>
-                <button className="flexCenter gap-3" type="button">
-                  <label className="font-bold whitespace-nowrap btn_white_green lg:text-lg xs:text-xs">
                     Request Demo
                   </label>
                 </button>
@@ -84,7 +77,7 @@ export default function Home() {
                 RPL Software Tailored for RTOs’ Regulatory Standards!
               </h2>
               <p className="mt-6 text-base leading-8 text-gray-600">
-                RPL iQ automates and accelerates the entire RPL process. The
+                RPLiQ automates and accelerates the entire RPL process. The
                 platform’s architecture is designed with a compliance-first
                 mindset, offering customisable templates, dynamic adaptability,
                 and real-time tracking to meet the rigorous requirements set by
