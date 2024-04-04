@@ -3,10 +3,10 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <div className="lg:grid lg:grid-cols-2 gap-0 xs:flex xs:flex-wrap">
+    <div className="lg:grid lg:grid-cols-2 gap-0 xs:flex xs:flex-wrap py-10 pb-10">
       <div className="bg-black-50">
         <div className="max-container padding-container-testimonial lg:py-20 xs:py-10">
-          <p className="text-white lg:text-2xl xs:text-xl">
+          <p className="text-white lg:text-2xl xs:text-base">
             RPL iQ is our secret weapon for simplifying RPL. Our students were
             able to upload their evidence and get assessed in real time. Thank
             you RPL iQ!{" "}
@@ -31,7 +31,7 @@ const Testimonial = () => {
 
       <div className="bg-green-50">
         <div className="max-container padding-container-testimonial lg:py-20 xs:py-10">
-          <p className="text-black-50 lg:text-2xl xs:text-xl">
+          <p className="text-black-50 lg:text-2xl xs:text-base">
             Our RTO is now processing double the RPL applications and reduced
             our admin staff cost, the system does everything! <br />
             AMAZING!!!{" "}

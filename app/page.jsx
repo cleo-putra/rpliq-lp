@@ -1,11 +1,13 @@
 "use client";
 import AchieveRpl from "@/components/Home/AchieveRpl";
 import CardRto from "@/components/Home/CardRto";
+import CountUp from "@/components/Home/CountUp";
+import Discover from "@/components/Home/Discover";
 import PartnerSlider from "@/components/Home/PartnerSlider";
 import SocialStar from "@/components/Home/SocialStar";
 import Testimonial from "@/components/Home/Testimonial";
 import Image from "next/image";
-import ReadMoreReact from "read-more-react";
+import { Typewriter } from "nextjs-simple-typewriter";
 
 export default function Home() {
   return (
@@ -16,29 +18,36 @@ export default function Home() {
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-xl">
               <mark className="bg-green-30 p-4">Cloud-based RPL Software</mark>
-              <h2 className="mt-6 text-[34px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
-                RPLiQ: Transforming RPL Faster | Cheaper | Compliant
-              </h2>
-              <div className="my-6 text-base leading-8 text-gray-600">
-                Start processing your student’s RPL’s using RPLiQ, the only
-                streamlined RPL system in the VET sector. RPLiQ automates and
-                simplifies the entire RPL process by reducing your overhead cost
-                and, increasing your institute productivity.
-                <ReadMoreReact
-                  className="text-green-50 cursor-pointer"
-                  min={0}
-                  ideal={0}
-                  max={1}
-                  text={
-                    "By adopting a more modernised streamlined solution your institute will gain a competitive edge and process RPL faster."
-                  }
-                  readMoreText="Read more.."
+              <h2 className="mt-6 text-[28px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
+                RPLiQ: RPL Assessment Management System
+                <br />
+                <Typewriter
+                  words={[
+                    "Revolutionising RPL",
+                    "Automating RPL Assessments",
+                    "Streamlining RPL Processes",
+                    "Online RPL Evidence Submission",
+                    "Accelerating the Student Journey",
+                  ]}
+                  loop={10}
+                  cursor
+                  cursorStyle="_"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={2000}
                 />
+              </h2>
+
+              <div className="my-6 text-base leading-8 text-gray-600">
+                Boost Your RTO's Productivity with RPLiQ: The Premier Online RPL
+                System in the VET Sector. Experience unmatched efficiency by
+                automating and simplifying your entire RPL process,
+                significantly cutting overhead costs and enhancing productivity.
               </div>
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
                 <button className="flexCenter gap-3" type="button">
                   <label className="font-bold whitespace-nowrap btn_dark_green lg:text-lg xs:text-xs">
-                    Request Demo
+                    Request Free Demo
                   </label>
                 </button>
               </div>
@@ -46,19 +55,23 @@ export default function Home() {
           </div>
           <div className="flex lg:justify-end xs:justify-center">
             <img
-              src="/home-1.svg"
+              src="/dashboard-student.png"
               alt="Product screenshot"
-              className="rounded-x lg:w-[533px] lg:h-[458px] xs:w-[333px] xs:h-[260px]"
+              className="rounded-x w-max h-max "
             />
           </div>
         </div>
       </div>
-      {/* Testimonial */}
-      <Testimonial />
-      {/* Accordion Product */}
-      <AchieveRpl />
+      {/* Video */}
+      <div className="max-container padding-container">
+        <video controls loop autoPlay>
+          <source src="/video/Homepage.mp4" type="video/mp4" />
+        </video>
+      </div>
+
       {/* Banner 2 */}
-      {/* Banner */}
+      <Discover />
+      {/* Banner 1*/}
       <div className="bg-white pt-10 max-container padding-container">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="flex justify-start lg:order-first xs:order-last">
@@ -72,162 +85,181 @@ export default function Home() {
           </div>
 
           <div className="lg:pr-8">
-            <div className="lg:max-w-xl">
-              <h2 className="lg:text-[30px] xs:text-xl font-bold text-black-50	lg:max-w-lg">
-                RPL Software Tailored for RTOs’ Regulatory Standards!
+            <div className="lg:max-w-xl lg:mt-5 xs:mt-0">
+              <h2 className="lg:text-[30px] font-bold text-black-50 lg:max-w-lg">
+                Assessment Management System Designed For RTO Compliance
               </h2>
-              <p className="mt-6 text-base leading-8 text-gray-600">
-                RPLiQ automates and accelerates the entire RPL process. The
-                platform’s architecture is designed with a compliance-first
-                mindset, offering customisable templates, dynamic adaptability,
-                and real-time tracking to meet the rigorous requirements set by
-                regulatory bodies
-              </p>
 
               <dl className="mt-4 max-w-xl space-y-2 text-base leading-7 text-gray-600 lg:max-w-none">
                 <div className="relative pl-9 ref">
                   <dt className="inline font-semibold text-gray-900">
                     <Image
-                      src="/check.png"
+                      src="/icon/rpl.png"
                       width={24}
                       height={24}
                       alt="Checklist"
-                      className="absolute left-1 top-1 h-5 w-5"
-                    />
-                  </dt>
-                  <dd className="inline">Reduce admin work</dd>
-                </div>
-                <div className="relative pl-9">
-                  <dt className="inline font-semibold text-gray-900">
-                    <Image
-                      src="/check.png"
-                      width={24}
-                      height={24}
-                      alt="Checklist"
-                      className="absolute left-1 top-1 h-5 w-5"
-                    />
-                  </dt>
-                  <dd className="inline">VET compliant</dd>
-                </div>
-                <div className="relative pl-9">
-                  <dt className="inline font-semibold text-gray-900">
-                    <Image
-                      src="/check.png"
-                      width={24}
-                      height={24}
-                      alt="Checklist"
-                      className="absolute left-1 top-1 h-5 w-5"
+                      className="absolute left-1 mt-1 top-1 h-5 w-6"
                     />
                   </dt>
                   <dd className="inline">
-                    Automated workflows that expedite the RPL journey
+                    Automated Enrolment: Streamlines administrative tasks,
+                    accelerating the student journey.
+                  </dd>
+                </div>
+                <div className="relative pl-9">
+                  <dt className="inline font-semibold text-gray-900">
+                    <Image
+                      src="/icon/rpl.png"
+                      width={24}
+                      height={24}
+                      alt="Checklist"
+                      className="absolute left-1 mt-1 top-1 h-5 w-6"
+                    />
+                  </dt>
+                  <dd className="inline">
+                    Online Assessments: Offers online assessments to reduce
+                    operational costs and speed up qualification.
+                  </dd>
+                </div>
+                <div className="relative pl-9">
+                  <dt className="inline font-semibold text-gray-900">
+                    <Image
+                      src="/icon/rpl.png"
+                      width={24}
+                      height={24}
+                      alt="Checklist"
+                      className="absolute left-1 mt-1 top-1 h-5 w-6"
+                    />
+                  </dt>
+                  <dd className="inline">
+                    Instant Certification: Enables immediate issuance of digital
+                    certificates, enhancing efficiency.
+                  </dd>
+                </div>
+                <div className="relative pl-9">
+                  <dt className="inline font-semibold text-gray-900">
+                    <Image
+                      src="/icon/rpl.png"
+                      width={24}
+                      height={24}
+                      alt="Checklist"
+                      className="absolute left-1 mt-1 top-1 h-5 w-6"
+                    />
+                  </dt>
+                  <dd className="inline">
+                    Regulatory Compliance: Designed with a compliance-first
+                    approach to meet Australian standards.
+                  </dd>
+                </div>
+                <div className="relative pl-9">
+                  <dt className="inline font-semibold text-gray-900">
+                    <Image
+                      src="/icon/rpl.png"
+                      width={24}
+                      height={24}
+                      alt="Checklist"
+                      className="absolute left-1 mt-1 top-1 h-5 w-6"
+                    />
+                  </dt>
+                  <dd className="inline">
+                    Enhanced Student Experience: Provides a faster, more
+                    satisfying journey from start to finish.
                   </dd>
                 </div>
               </dl>
-
-              <div className="mt-6 flex justify-normal">
-                <button className="flexCenter gap-3" type="button">
-                  <label className="font-bold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
-                    Start Trial
-                  </label>
-                </button>
-              </div>
             </div>
           </div>
         </div>
       </div>
-      {/* Banner 3 */}
-      {/* Banner */}
+      {/* Banner 2 */}
       <div className="overflow-hidden bg-white lg:py-32 xs:py-10 max-container padding-container">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8">
-            <div className="lg:max-w-xl">
+            <div className="lg:max-w-xl ">
               <h2 className="lg:text-[30px] xs:text-xl font-bold text-black-50	lg:max-w-lg">
-                RPLiQ Saves Time, Cost and Effort
+                RPLiQ Saves Time, Cost, and Effort
               </h2>
               <p className="mt-6 text-base leading-8 text-gray-600">
-                We understand that the journey to qualification can be complex,
-                time-consuming, and burdensome. That’s why RPLiQ is here to
-                streamline and automate every step of the way, offering you
-                unmatched advantages:
+                Traditional RPL processes can be expensive, time intensive,
+                complex, and slow. RPLiQ revolutionises the RPL process by
+                making the journey simpler, online and automated. It's designed
+                for everyone involved - RTOs, Assessors, employers and Students
+                - with features that match their needs.
               </p>
 
               <dl className="mt-4 max-w-xl space-y-2 text-base leading-7 text-gray-600 lg:max-w-none">
                 <div className="relative pl-9 ref">
                   <dt className="inline font-semibold text-gray-900">
                     <Image
-                      src="/check.png"
+                      src="/icon/rpl.png"
                       width={24}
                       height={24}
                       alt="Checklist"
-                      className="absolute left-1 top-1 h-5 w-5"
+                      className="absolute left-1 mt-1 top-1 h-5 w-6"
                     />
                   </dt>
-                  <dd className="inline">User-friendly software</dd>
+                  <dd className="inline">
+                    For Students:
+                    <br />
+                    24/7 Online Access: submit RPL assessments & evidence
+                    anytime, anywhere, direct access to assessors & receive
+                    instant feedback & assessment outcome.{" "}
+                  </dd>
                 </div>
                 <div className="relative pl-9">
                   <dt className="inline font-semibold text-gray-900">
                     <Image
-                      src="/check.png"
+                      src="/icon/rpl.png"
                       width={24}
                       height={24}
                       alt="Checklist"
-                      className="absolute left-1 top-1 h-5 w-5"
+                      className="absolute left-1 mt-1 top-1 h-5 w-6"
                     />
                   </dt>
-                  <dd className="inline">Real-time progress tracking</dd>
+                  <dd className="inline">
+                    For Assessors:
+                    <br />
+                    Assess multiple students, instantly give feedback or
+                    communicate assessment outcome while maintaining a compliant
+                    trainer file.
+                  </dd>
                 </div>
                 <div className="relative pl-9">
                   <dt className="inline font-semibold text-gray-900">
                     <Image
-                      src="/check.png"
+                      src="/icon/rpl.png"
                       width={24}
                       height={24}
                       alt="Checklist"
-                      className="absolute left-1 top-1 h-5 w-5"
+                      className="absolute left-1 mt-1 top-1 h-5 w-6"
                     />
                   </dt>
-                  <dd className="inline">Compliance and quality assurance</dd>
-                </div>
-                <div className="relative pl-9">
-                  <dt className="inline font-semibold text-gray-900">
-                    <Image
-                      src="/check.png"
-                      width={24}
-                      height={24}
-                      alt="Checklist"
-                      className="absolute left-1 top-1 h-5 w-5"
-                    />
-                  </dt>
-                  <dd className="inline">Efficient data management software</dd>
+                  <dd className="inline">
+                    For RTOs:
+                    <br />
+                    Efficiency & Compliance: Enroll more, boost productivity,
+                    and save costs while staying compliant & meeting reporting
+                    requirements.
+                  </dd>
                 </div>
               </dl>
-
-              <div className="mt-6 flex justify-normal gap-4">
-                <button className="flexCenter gap-3" type="button">
-                  <label className="font-bold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
-                    Start Trial
-                  </label>
-                </button>
-              </div>
             </div>
           </div>
           <div className="flex justify-end">
             <Image
-              src="/home-3.png"
+              src="/dashboard-devices.png"
               width={568}
               height={470}
               alt="Product screenshot"
-              className="rounded-x md:h-[470px]"
+              className="rounded-x w-max h-max"
             />
           </div>
         </div>
       </div>
-      {/* Partner Slider */}
-      <PartnerSlider />
+      {/* testimonials */}
+      <Testimonial />  
 
-      {/* Social star */}
-      <SocialStar />
+      <CountUp />
 
       <CardRto />
     </>
