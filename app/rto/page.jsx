@@ -40,14 +40,10 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-end">
-            <Image
-              src="/rto-banner.jpg"
-              width={507}
-              height={458}
-              alt="Product screenshot"
-              className="rounded-x"
-            />
+          <div className="flex items-center">
+            <video controls loop autoPlay>
+              <source src="/video/RTO.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </div>
@@ -186,8 +182,14 @@ const page = () => {
       {/* Achieve Section */}
       <AchieveSection />
 
-      <div className="max-container padding-container">
-        
+      <div className="max-container padding-container flex justify-center items-center my-10">
+        <Image
+          src="/Group 50.svg"
+          width={768}
+          height={470}
+          alt="Product screenshot"
+          className="rounded-x lg:w-[1200px] lg:h-max xs:w-max xs:h-max"
+        />
       </div>
 
       <CardRto />
