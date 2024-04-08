@@ -72,20 +72,20 @@ export default function Home() {
       {/* Banner 2 */}
       <Discover />
       {/* Banner 1*/}
-      <div className="bg-white pt-10 max-container padding-container">
+      <div className="bg-white lg:mt-20 xs:mt-0 max-container padding-container">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="flex justify-start lg:order-first xs:order-last">
             <Image
-              src="/rto.png"
+              src="/ams.png"
               width={486}
               height={458}
               alt="Product screenshot"
-              className="rounded-x md:h-[458px] "
+              className="rounded-x h-auto w-auto "
             />
           </div>
 
           <div className="lg:pr-8">
-            <div className="lg:max-w-xl lg:mt-5 xs:mt-0">
+            <div className="lg:max-w-xl lg:mt-10 xs:mt-0">
               <h2 className="lg:text-[30px] font-bold text-black-50 lg:max-w-lg">
                 Assessment Management System Designed For RTO Compliance
               </h2>
@@ -172,7 +172,7 @@ export default function Home() {
         </div>
       </div>
       {/* Banner 2 */}
-      <div className="overflow-hidden bg-white lg:py-32 xs:py-10 max-container padding-container">
+      <div className="overflow-hidden lg:mt-20 xs:mt-0 bg-white lg:py-32 xs:py-10 max-container padding-container">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8">
             <div className="lg:max-w-xl ">
@@ -188,8 +188,8 @@ export default function Home() {
               </p>
 
               <dl className="mt-4 max-w-xl space-y-2 text-base leading-7 text-gray-600 lg:max-w-none">
-                <div className="relative pl-9 ref">
-                  <dt className="inline font-semibold text-gray-900">
+                <div className="relative pl-9">
+                  <dt className="flex font-semibold text-gray-900">
                     <Image
                       src="/icon/rpl.png"
                       width={24}
@@ -245,13 +245,13 @@ export default function Home() {
               </dl>
             </div>
           </div>
-          <div className="flex justify-end">
+          <div className="flex items-center">
             <Image
               src="/dashboard-devices.png"
               width={568}
               height={470}
               alt="Product screenshot"
-              className="rounded-x w-max h-max"
+              className="rounded-x w-auto h-auto"
             />
           </div>
         </div>

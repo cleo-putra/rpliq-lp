@@ -111,12 +111,13 @@ const JourneySection = () => {
   return (
     <div className="bg-gradient-to-b from-[#eafaf4] to-white flex">
       <div className="max-container padding-container py-8 grid max-w-2xl grid-cols-1">
-        <p className="text-center lg:mt-4 xs:mt-0 md:text-2xl px-5 xs:text-lg font-semibold tracking-tight text-gray-900 sm:text-2xl">
-          Take control of your RTO's RPL journey by adopting RPLiQ's
+      <h3 className="mt-6 text-3xl font-bold text-center">
+          {" "}
+          Take control of your RTO's RPL journey by adopting <br/> RPLiQ's
           revolutionary platform
-        </p>
+        </h3>
 
-        <div className="grid-cols-1 sm:grid md:grid-cols-3 ">
+        <div className="grid-cols-1 sm:grid md:grid-cols-3 mt-10">
           {dataJourney.map((item) => (
             <div
               key={item.key}

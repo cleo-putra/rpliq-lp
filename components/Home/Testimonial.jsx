@@ -3,7 +3,7 @@ import React from "react";
 
 const Testimonial = () => {
   return (
-    <div className="lg:grid lg:grid-cols-2 gap-0 xs:flex xs:flex-wrap py-10 pb-10">
+    <div className="lg:grid lg:grid-cols-2 gap-0 xs:flex xs:flex-wrap mt-20">
       <div className="bg-black-50">
         <div className="max-container padding-container-testimonial lg:py-20 xs:py-10">
           <p className="text-white lg:text-2xl xs:text-base">

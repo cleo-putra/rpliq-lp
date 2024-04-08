@@ -1,5 +1,5 @@
+import React from "react";
 import CardRto from "@/components/Home/CardRto";
-import PartnerSlider from "@/components/Home/PartnerSlider";
 import AchieveSection from "@/components/Rto/AchieveSection";
 import CarouselRto from "@/components/Rto/CarouselRto";
 import JourneySection from "@/components/Rto/JourneySection";
@@ -7,7 +7,6 @@ import ManageStudent from "@/components/Rto/ManageStudent";
 import TableRto from "@/components/Rto/TableRto";
 import VideoRto from "@/components/Rto/VideoRto";
 import Image from "next/image";
-import React from "react";
 
 const page = () => {
   return (
@@ -182,15 +181,18 @@ const page = () => {
       {/* Achieve Section */}
       <AchieveSection />
 
-      <div className="max-container padding-container flex justify-center items-center my-10">
+      <div className="bg-gradient-to-b from-white to-[#eafaf4]">
+
+      <div className="max-container padding-container flex justify-center items-center my-20">
         <Image
           src="/Group 50.svg"
           width={768}
           height={470}
           alt="Product screenshot"
           className="rounded-x lg:w-[1200px] lg:h-max xs:w-max xs:h-max"
-        />
+          />
       </div>
+          </div>
 
       <CardRto />
     </>
