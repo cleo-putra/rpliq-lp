@@ -2,7 +2,7 @@ import React from "react";
 
 const RealTime = () => {
   return (
-    <div className="max-container padding-container mx-auto lg:py-32 xs:py-10">
+    <div className="max-container padding-container mx-auto lg:py-10 xs:py-10">
       <h3 className="my-6 lg:text-3xl xs:text-xl font-bold text-center text-green-50">
         Real-Time Collaboration: Live Chat and Online Evidence Approvals in
         RPLiQ

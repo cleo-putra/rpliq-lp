@@ -6,6 +6,7 @@ import Discover from "@/components/Home/Discover";
 import PartnerSlider from "@/components/Home/PartnerSlider";
 import SocialStar from "@/components/Home/SocialStar";
 import Testimonial from "@/components/Home/Testimonial";
+import UserJourney from "@/components/Home/UserJourney";
 import Image from "next/image";
 import { Typewriter } from "nextjs-simple-typewriter";
 
@@ -71,6 +72,8 @@ export default function Home() {
 
       {/* Banner 2 */}
       <Discover />
+
+      <UserJourney />
       {/* Banner 1*/}
       <div className="bg-white lg:mt-20 xs:mt-0 max-container padding-container">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">

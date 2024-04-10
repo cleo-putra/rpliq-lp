@@ -1,5 +1,4 @@
 import React from "react";
-import MarkTitle from "../MarkTitle";
 
 const Discover = ({ markText, subHead }) => {
   return (
