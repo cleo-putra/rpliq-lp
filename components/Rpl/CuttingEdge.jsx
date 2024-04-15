@@ -4,34 +4,40 @@ import { Collapse } from "antd";
 const items = [
   {
     key: "1",
-    label: "Enrol",
+    label: "Dashboards",
     children:
-      "RPLiQ automates the enrolment process, significantly reducing administrative requirements accelerating the student journey from start to finish.",
+      "Custom interfaces for efficient management and oversight.",
   },
   {
     key: "2",
-    label: "Qualify",
+    label: "Evidence Flexibility",
     children:
-      "RTOs can easily customise documentation requirements based on industry specific requirements, ensuring that evidence portfolios remain aligned with the latest standards and training package requirements. ",
+      "Accepts all formats from any device, ensuring seamless competency demonstration online.",
   },
   {
     key: "3",
-    label: "Certify",
+    label: "Analytics",
     children:
-      "RPLiQ provides certification feature, allowing RTOs to issue digital certificates instantly.",
+      "Offers real-time data for informed decisions and improvements for students, assessors & RTO's.",
+  },
+  {
+    key: "4",
+    label: "Security",
+    children:
+      "Ensures top-tier protection for all user data.",
   },
 ];
 
-const AchieveRpl = () => {
-  
+const CuttingEdge = () => {
+ 
   return (
     <div className="bg-white lg:py-24 xs:py-10 padding-container">
       <div className="mx-auto max-w-7xl">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-lg">
               <p className="lg:mt-12 xs:mt-0 lg:text-2xl font-bold tracking-tight text-gray-900 xs:text-2xl">
-                RPL: Streamlined | Simplified | Online
+              RPLiQ's Cutting-Edge Features: Automation, Flexibility, and Security
               </p>
 
               <div className="mt-5">
@@ -65,4 +71,4 @@ const AchieveRpl = () => {
   );
 };
 
-export default AchieveRpl;
+export default CuttingEdge;

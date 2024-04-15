@@ -9,6 +9,7 @@ import Image from "next/image";
 import Discover from "@/components/Home/Discover";
 import RealTime from "@/components/Rpl/RealTime";
 import QualificationUnit from "@/components/Rpl/QualificationUnit";
+import CuttingEdge from "@/components/Rpl/CuttingEdge";
 
 export default function Home() {
   return (
@@ -177,11 +178,12 @@ export default function Home() {
       <Discover />
 
       <RealTime /> 
+      
+      {/* Accordion Product */}
+      <CuttingEdge />
 
       <QualificationUnit />
 
-      {/* Accordion Product */}
-      <AchieveRpl />
 
       <CardRto />
     </>
