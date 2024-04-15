@@ -7,7 +7,7 @@ const CardRto = () => {
         <div className="col-span-1">
           <img className="h-full object-cover" src="/cardRto.png" alt="photo" />
         </div>
-        <div className="col-span-2 md:px-10 xs:px-4 lg:py-10 xs:py-0">
+        <div className="col-span-2 md:px-10 xs:px-4 lg:py-10 xs:py-0 ">
           <h3 className="lg:text-4xl font-bold tracking-tight text-gray-900 xs:text-xl">
             <span className="text-green-50">Get Going in No Time:</span><br/> Easy-Peasy RPLiQ Setup
           </h3>

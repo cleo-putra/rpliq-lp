@@ -21,7 +21,7 @@ const UserJourney = () => {
               </h5>
               <br/>
               <span className="text-green-50 font-extrabold text-sm hover:underline">
-                <a href="/rpl">Go to Student Journey</a>
+                <a href="/student-tour">Go to Student Journey</a>
               </span>
             </div>
           </div>
@@ -41,7 +41,7 @@ const UserJourney = () => {
               <br />
 
               <span className="text-green-50 font-extrabold text-sm hover:underline">
-                <a href="/rpl">Go to Assessor Journey</a>
+                <a href="/assessor-tour">Go to Assessor Journey</a>
               </span>
             </div>
           </div>
@@ -54,7 +54,7 @@ const UserJourney = () => {
               </h5>
               <br/>
               <span className="text-green-50 font-extrabold text-sm hover:underline">
-                <a href="/rpl">Go to RTO Tour</a>
+                <a href="/rto-journey">Go to RTO Tour</a>
               </span>
             </div>
           </div>
@@ -66,7 +66,7 @@ const UserJourney = () => {
                 Compliance & Quality Assurance
               </h5>
               <span className="text-green-50 font-extrabold text-sm hover:underline">
-                <a href="/rpl">Go to Compliance & QA</a>
+                <a href="/compliance-qa">Go to Compliance & QA</a>
               </span>
             </div>
           </div>
@@ -83,7 +83,7 @@ const UserJourney = () => {
               </h5>
               <br />
               <span className="text-green-50 font-extrabold text-sm hover:underline">
-                <a href="/rpl">Go to Reporting</a>
+                <a href="/reporting">Go to Reporting</a>
               </span>
             </div>
           </div>
