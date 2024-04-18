@@ -2,7 +2,7 @@ import React from "react";
 
 const UserJourney = () => {
   return (
-    <div className="bg-[#eafaf4]">
+    <div className="bg-gradient-to-b from-[#eafaf4] to-white">
       <div className="max-container padding-container mx-auto lg:py-20 xs:py-10">
         <h3 className="mb-6 lg:text-3xl xs:text-xl font-bold text-center text-green-50">
           Discover RPLiQ: The Future of RPL, Simplified and Streamlined

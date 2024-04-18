@@ -75,192 +75,196 @@ export default function Home() {
 
       <UserJourney />
       {/* Banner 1*/}
-      <div className="bg-white lg:mt-20 xs:mt-0 max-container padding-container">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div className="flex justify-start lg:order-first xs:order-last">
-            <Image
-              src="/ams.png"
-              width={486}
-              height={458}
-              alt="Product screenshot"
-              className="rounded-x h-auto w-auto "
-            />
-          </div>
+      <div className="bg-gradient-to-b from-white to-[#eafaf4]">
+        <div className=" lg:mt-20 xs:mt-0 pb-10 max-container padding-container">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            <div className="flex justify-start lg:order-first xs:order-last">
+              <Image
+                src="/ams.png"
+                width={486}
+                height={458}
+                alt="Product screenshot"
+                className="rounded-x h-auto w-auto "
+              />
+            </div>
 
-          <div className="lg:pr-8">
-            <div className="lg:max-w-xl lg:mt-10 xs:mt-0">
-              <h2 className="lg:text-[30px] font-bold text-black-50 lg:max-w-lg">
-                Assessment Management System Designed For RTO Compliance
-              </h2>
+            <div className="lg:pr-8">
+              <div className="lg:max-w-xl lg:mt-10 xs:mt-0">
+                <h2 className="lg:text-[30px] font-bold text-black-50 lg:max-w-lg">
+                  Assessment Management System Designed For RTO Compliance
+                </h2>
 
-              <dl className="mt-4 max-w-xl space-y-2 text-base leading-7 text-gray-600 lg:max-w-none">
-                <div className="relative pl-9 ref">
-                  <dt className="inline font-semibold text-gray-900">
-                    <Image
-                      src="/icon/rpl.png"
-                      width={24}
-                      height={24}
-                      alt="Checklist"
-                      className="absolute left-1 mt-1 top-1 h-5 w-6"
-                    />
-                  </dt>
-                  <dd className="inline">
-                    Automated Enrolment: Streamlines administrative tasks,
-                    accelerating the student journey.
-                  </dd>
-                </div>
-                <div className="relative pl-9">
-                  <dt className="inline font-semibold text-gray-900">
-                    <Image
-                      src="/icon/rpl.png"
-                      width={24}
-                      height={24}
-                      alt="Checklist"
-                      className="absolute left-1 mt-1 top-1 h-5 w-6"
-                    />
-                  </dt>
-                  <dd className="inline">
-                    Online Assessments: Offers online assessments to reduce
-                    operational costs and speed up qualification.
-                  </dd>
-                </div>
-                <div className="relative pl-9">
-                  <dt className="inline font-semibold text-gray-900">
-                    <Image
-                      src="/icon/rpl.png"
-                      width={24}
-                      height={24}
-                      alt="Checklist"
-                      className="absolute left-1 mt-1 top-1 h-5 w-6"
-                    />
-                  </dt>
-                  <dd className="inline">
-                    Instant Certification: Enables immediate issuance of digital
-                    certificates, enhancing efficiency.
-                  </dd>
-                </div>
-                <div className="relative pl-9">
-                  <dt className="inline font-semibold text-gray-900">
-                    <Image
-                      src="/icon/rpl.png"
-                      width={24}
-                      height={24}
-                      alt="Checklist"
-                      className="absolute left-1 mt-1 top-1 h-5 w-6"
-                    />
-                  </dt>
-                  <dd className="inline">
-                    Regulatory Compliance: Designed with a compliance-first
-                    approach to meet Australian standards.
-                  </dd>
-                </div>
-                <div className="relative pl-9">
-                  <dt className="inline font-semibold text-gray-900">
-                    <Image
-                      src="/icon/rpl.png"
-                      width={24}
-                      height={24}
-                      alt="Checklist"
-                      className="absolute left-1 mt-1 top-1 h-5 w-6"
-                    />
-                  </dt>
-                  <dd className="inline">
-                    Enhanced Student Experience: Provides a faster, more
-                    satisfying journey from start to finish.
-                  </dd>
-                </div>
-              </dl>
+                <dl className="mt-4 max-w-xl space-y-2 text-base leading-7 text-gray-600 lg:max-w-none">
+                  <div className="relative pl-9 ref">
+                    <dt className="inline font-semibold text-gray-900">
+                      <Image
+                        src="/icon/rpl.png"
+                        width={24}
+                        height={24}
+                        alt="Checklist"
+                        className="absolute left-1 mt-1 top-1 h-5 w-6"
+                      />
+                    </dt>
+                    <dd className="inline">
+                      Automated Enrolment: Streamlines administrative tasks,
+                      accelerating the student journey.
+                    </dd>
+                  </div>
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <Image
+                        src="/icon/rpl.png"
+                        width={24}
+                        height={24}
+                        alt="Checklist"
+                        className="absolute left-1 mt-1 top-1 h-5 w-6"
+                      />
+                    </dt>
+                    <dd className="inline">
+                      Online Assessments: Offers online assessments to reduce
+                      operational costs and speed up qualification.
+                    </dd>
+                  </div>
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <Image
+                        src="/icon/rpl.png"
+                        width={24}
+                        height={24}
+                        alt="Checklist"
+                        className="absolute left-1 mt-1 top-1 h-5 w-6"
+                      />
+                    </dt>
+                    <dd className="inline">
+                      Instant Certification: Enables immediate issuance of
+                      digital certificates, enhancing efficiency.
+                    </dd>
+                  </div>
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <Image
+                        src="/icon/rpl.png"
+                        width={24}
+                        height={24}
+                        alt="Checklist"
+                        className="absolute left-1 mt-1 top-1 h-5 w-6"
+                      />
+                    </dt>
+                    <dd className="inline">
+                      Regulatory Compliance: Designed with a compliance-first
+                      approach to meet Australian standards.
+                    </dd>
+                  </div>
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <Image
+                        src="/icon/rpl.png"
+                        width={24}
+                        height={24}
+                        alt="Checklist"
+                        className="absolute left-1 mt-1 top-1 h-5 w-6"
+                      />
+                    </dt>
+                    <dd className="inline">
+                      Enhanced Student Experience: Provides a faster, more
+                      satisfying journey from start to finish.
+                    </dd>
+                  </div>
+                </dl>
+              </div>
             </div>
           </div>
         </div>
       </div>
       {/* Banner 2 */}
-      <div className="overflow-hidden lg:mt-20 xs:mt-0 bg-white lg:py-32 xs:py-10 max-container padding-container">
-        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-          <div className="lg:pr-8">
-            <div className="lg:max-w-xl ">
-              <h2 className="lg:text-[30px] xs:text-xl font-bold text-black-50	lg:max-w-lg">
-                RPLiQ Saves Time, Cost, and Effort
-              </h2>
-              <p className="mt-6 text-base leading-8 text-gray-600">
-                Traditional RPL processes can be expensive, time intensive,
-                complex, and slow. RPLiQ revolutionises the RPL process by
-                making the journey simpler, online and automated. It's designed
-                for everyone involved - RTOs, Assessors, employers and Students
-                - with features that match their needs.
-              </p>
+      <div className="bg-gradient-to-b from-[#eafaf4] to-white">
+        <div className="overflow-hidden lg:pt-32 xs:pt-0 lg:py-32 xs:py-10 max-container padding-container">
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+            <div className="lg:pr-8">
+              <div className="lg:max-w-xl ">
+                <h2 className="lg:text-[30px] xs:text-xl font-bold text-black-50	lg:max-w-lg">
+                  RPLiQ Saves Time, Cost, and Effort
+                </h2>
+                <p className="mt-6 text-base leading-8 text-gray-600">
+                  Traditional RPL processes can be expensive, time intensive,
+                  complex, and slow. RPLiQ revolutionises the RPL process by
+                  making the journey simpler, online and automated. It's
+                  designed for everyone involved - RTOs, Assessors, employers
+                  and Students - with features that match their needs.
+                </p>
 
-              <dl className="mt-4 max-w-xl space-y-2 text-base leading-7 text-gray-600 lg:max-w-none">
-                <div className="relative pl-9">
-                  <dt className="flex font-semibold text-gray-900">
-                    <Image
-                      src="/icon/rpl.png"
-                      width={24}
-                      height={24}
-                      alt="Checklist"
-                      className="absolute left-1 mt-1 top-1 h-5 w-6"
-                    />
-                  </dt>
-                  <dd className="inline">
-                    For Students:
-                    <br />
-                    24/7 Online Access: submit RPL assessments & evidence
-                    anytime, anywhere, direct access to assessors & receive
-                    instant feedback & assessment outcome.{" "}
-                  </dd>
-                </div>
-                <div className="relative pl-9">
-                  <dt className="inline font-semibold text-gray-900">
-                    <Image
-                      src="/icon/rpl.png"
-                      width={24}
-                      height={24}
-                      alt="Checklist"
-                      className="absolute left-1 mt-1 top-1 h-5 w-6"
-                    />
-                  </dt>
-                  <dd className="inline">
-                    For Assessors:
-                    <br />
-                    Assess multiple students, instantly give feedback or
-                    communicate assessment outcome while maintaining a compliant
-                    trainer file.
-                  </dd>
-                </div>
-                <div className="relative pl-9">
-                  <dt className="inline font-semibold text-gray-900">
-                    <Image
-                      src="/icon/rpl.png"
-                      width={24}
-                      height={24}
-                      alt="Checklist"
-                      className="absolute left-1 mt-1 top-1 h-5 w-6"
-                    />
-                  </dt>
-                  <dd className="inline">
-                    For RTOs:
-                    <br />
-                    Efficiency & Compliance: Enroll more, boost productivity,
-                    and save costs while staying compliant & meeting reporting
-                    requirements.
-                  </dd>
-                </div>
-              </dl>
+                <dl className="mt-4 max-w-xl space-y-2 text-base leading-7 text-gray-600 lg:max-w-none">
+                  <div className="relative pl-9">
+                    <dt className="flex font-semibold text-gray-900">
+                      <Image
+                        src="/icon/rpl.png"
+                        width={24}
+                        height={24}
+                        alt="Checklist"
+                        className="absolute left-1 mt-1 top-1 h-5 w-6"
+                      />
+                    </dt>
+                    <dd className="inline">
+                      For Students:
+                      <br />
+                      24/7 Online Access: submit RPL assessments & evidence
+                      anytime, anywhere, direct access to assessors & receive
+                      instant feedback & assessment outcome.{" "}
+                    </dd>
+                  </div>
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <Image
+                        src="/icon/rpl.png"
+                        width={24}
+                        height={24}
+                        alt="Checklist"
+                        className="absolute left-1 mt-1 top-1 h-5 w-6"
+                      />
+                    </dt>
+                    <dd className="inline">
+                      For Assessors:
+                      <br />
+                      Assess multiple students, instantly give feedback or
+                      communicate assessment outcome while maintaining a
+                      compliant trainer file.
+                    </dd>
+                  </div>
+                  <div className="relative pl-9">
+                    <dt className="inline font-semibold text-gray-900">
+                      <Image
+                        src="/icon/rpl.png"
+                        width={24}
+                        height={24}
+                        alt="Checklist"
+                        className="absolute left-1 mt-1 top-1 h-5 w-6"
+                      />
+                    </dt>
+                    <dd className="inline">
+                      For RTOs:
+                      <br />
+                      Efficiency & Compliance: Enroll more, boost productivity,
+                      and save costs while staying compliant & meeting reporting
+                      requirements.
+                    </dd>
+                  </div>
+                </dl>
+              </div>
             </div>
-          </div>
-          <div className="flex items-center">
-            <Image
-              src="/dashboard-devices.png"
-              width={568}
-              height={470}
-              alt="Product screenshot"
-              className="rounded-x w-auto h-auto"
-            />
+            <div className="flex items-center">
+              <Image
+                src="/dashboard-devices.png"
+                width={568}
+                height={470}
+                alt="Product screenshot"
+                className="rounded-x w-auto h-auto"
+              />
+            </div>
           </div>
         </div>
       </div>
       {/* testimonials */}
-      <Testimonial />  
+      <Testimonial />
 
       <CountUp />
 
