@@ -117,7 +117,7 @@ const page = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/student/dashboard.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
@@ -134,7 +134,7 @@ const page = () => {
           <div className="mx-auto grid max-w-2xl xs:grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="flex justify-center items-center md:order-first xs:order-last">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/student/LLN.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
@@ -274,7 +274,7 @@ const page = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/student/Enrolment.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
@@ -291,7 +291,7 @@ const page = () => {
           <div className="mx-auto grid max-w-2xl xs:grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="flex justify-center items-center md:order-first xs:order-last">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/student/Id Docs.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
@@ -436,7 +436,7 @@ const page = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/student/Employment.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
@@ -453,7 +453,7 @@ const page = () => {
           <div className="mx-auto grid max-w-2xl xs:grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="flex justify-center items-center md:order-first xs:order-last">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/student/Referee.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
@@ -595,7 +595,7 @@ const page = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/student/Evidence.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
@@ -612,7 +612,7 @@ const page = () => {
           <div className="mx-auto grid max-w-2xl xs:grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="flex justify-center items-center md:order-first xs:order-last">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/student/statdec.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
@@ -740,7 +740,7 @@ const page = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/student/Certificate.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
