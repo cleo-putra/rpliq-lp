@@ -50,7 +50,7 @@ const page = () => {
           <div className="mx-auto grid max-w-2xl xs:grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="flex justify-center items-center md:order-first xs:order-last">
               <Image
-                src="/journey/assessor/trainermatrix.gif"
+                src="/journey/compliance/rpl.gif"
                 width={768}
                 height={470}
                 alt="Product screenshot"
@@ -100,7 +100,7 @@ const page = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                src="/journey/assessor/trainermatrix.gif"
+                src="/journey/compliance/trainermatrix.gif"
                 width={768}
                 height={470}
                 alt="Product screenshot"
