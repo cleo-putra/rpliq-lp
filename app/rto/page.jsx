@@ -182,17 +182,16 @@ const page = () => {
       <AchieveSection />
 
       <div className="bg-gradient-to-b from-white to-[#eafaf4]">
-
-      <div className="max-container padding-container flex justify-center items-center my-20">
-        <Image
-          src="/Group 50.svg"
-          width={768}
-          height={470}
-          alt="Product screenshot"
-          className="rounded-x lg:w-[1200px] lg:h-max xs:w-max xs:h-max"
+        <div className="max-container padding-container flex justify-center items-center my-20">
+          <Image
+            src="/Group 50.svg"
+            width={768}
+            height={470}
+            alt="Product screenshot"
+            className="rounded-x lg:w-[1200px] lg:h-max xs:w-max xs:h-max"
           />
+        </div>
       </div>
-          </div>
 
       <CardRto />
     </>

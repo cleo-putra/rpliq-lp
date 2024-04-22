@@ -36,10 +36,12 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center">
-            <video controls loop autoPlay>
-              <source src="/video/RTO.mp4" type="video/mp4" />
-            </video>
+          <div className="flex lg:justify-end xs:justify-center">
+            <img
+              src="/journey/student/main.png"
+              alt="Product screenshot"
+              className="rounded-x w-max h-max "
+            />
           </div>
         </div>
       </div>
@@ -141,7 +143,7 @@ const page = () => {
                 className="rounded-x w-auto h-auto"
               />
             </div>
-            <div className="lg:pr-8 lg:pt-12 xs:pt-0">
+            <div className="flex lg:pr-8 lg:pt-12 xs:pt-0 items-center">
               <div className="lg:max-w-xl">
                 <h2 className="lg:text-[30px] xs:text-xl font-bold text-black-50">
                   Step 2: LLN Assessment
@@ -211,7 +213,7 @@ const page = () => {
       <div className="bg-gradient-to-b from-[#eafaf4] to-white">
         <div className="overflow-hidden lg:py-24 xs:py-10 max-container padding-container">
           <div className="mx-auto grid max-w-2xl xs:grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
-            <div className="lg:pr-8 lg:pt-12 xs:pt-0">
+            <div className="flex lg:pr-8 lg:pt-12 xs:pt-0 items-center">
               <div className="lg:max-w-xl">
                 <h2 className="lg:text-[30px] xs:text-xl font-bold text-black-50">
                   Step 3: Enrolment
@@ -272,15 +274,13 @@ const page = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-center items-center">
-              <Image
-                src="/journey/student/Enrolment.png"
-                width={768}
-                height={470}
-                alt="Product screenshot"
-                className="rounded-x w-auto h-auto"
-              />
-            </div>
+            <Image
+              src="/journey/student/Enrolment.png"
+              width={768}
+              height={470}
+              alt="Product screenshot"
+              className="rounded-x w-auto h-auto"
+            />
           </div>
         </div>
       </div>
@@ -619,7 +619,7 @@ const page = () => {
                 className="rounded-x w-auto h-auto"
               />
             </div>
-            <div className="lg:pr-8 lg:pt-12 xs:pt-0">
+            <div className="flex lg:pr-8 lg:pt-12 xs:pt-0 items-center">
               <div className="lg:max-w-xl">
                 <h2 className="lg:text-[30px] xs:text-xl font-bold text-black-50">
                   Step 8: Statutory Declaration

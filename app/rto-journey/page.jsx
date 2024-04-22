@@ -30,10 +30,12 @@ const page = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center">
-            <video controls loop autoPlay>
-              <source src="/video/RTO.mp4" type="video/mp4" />
-            </video>
+          <div className="flex lg:justify-end xs:justify-center">
+            <img
+              src="/journey/rto/dashboard.png"
+              alt="Product screenshot"
+              className="rounded-x w-max h-max "
+            />
           </div>
         </div>
       </div>
@@ -128,7 +130,7 @@ const page = () => {
 
               </div>
             </div>
-            <div className="flex justify-center items-center">
+            <div className="lg:mt-20 xs:mt-0">
               <Image
                 src="/dashboard-rto.png"
                 width={768}
@@ -147,14 +149,14 @@ const page = () => {
           <div className="mx-auto grid max-w-2xl xs:grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="flex justify-center items-center md:order-first xs:order-last">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/rto/report.gif"
                 width={768}
                 height={470}
                 alt="Product screenshot"
                 className="rounded-x w-auto h-auto"
               />
             </div>
-            <div className="lg:pr-8 lg:pt-12 xs:pt-0">
+            <div className="lg:pr-8 pt-0">
               <div className="lg:max-w-xl">
                 <h2 className="lg:text-[30px] xs:text-xl font-bold text-black-50">
                   Manage Reports
@@ -290,7 +292,7 @@ const page = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/rto/students.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
@@ -307,7 +309,7 @@ const page = () => {
           <div className="mx-auto grid max-w-2xl xs:grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="flex justify-center items-center md:order-first xs:order-last">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/rto/assessors.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
@@ -408,7 +410,7 @@ const page = () => {
             </div>
             <div className="flex justify-center items-center">
               <Image
-                src="/dashboard-rto.png"
+                src="/journey/rto/courses.png"
                 width={768}
                 height={470}
                 alt="Product screenshot"
