@@ -6,16 +6,16 @@ import { NAV_LINKS } from "@/constants";
 import Link from "next/link";
 
 const products = [
-  {
-    name: "Product Overview",
-    description: "Empowering Futures, Recognizing Your Journey",
-    href: "/product",
-  },
+  // {
+  //   name: "Product Overview",
+  //   description: "Empowering Futures, Recognizing Your Journey",
+  //   href: "/product",
+  // },
   {
     name: "Compliance",
     description:
       "Empowering Ambitions, Igniting Potential: Your Journey, Your Success as a Student",
-    href: "/compliance",
+    href: "/compliance-qa",
   },
   {
     name: "RPL",

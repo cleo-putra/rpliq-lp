@@ -5,25 +5,25 @@ import { DownOutlined, SmileOutlined } from "@ant-design/icons";
 import { Dropdown, Space } from "antd";
 
 const items = [
-  {
-    key: "1",
-    label: (
-      <a
-        className="bold text-xl text-black cursor-pointer pb-1.5 hover:font-bold"
-        rel="noopener noreferrer"
-        href="/product"
-      >
-        Product Overview
-      </a>
-    ),
-  },
+  // {
+  //   key: "1",
+  //   label: (
+  //     <a
+  //       className="bold text-xl text-black cursor-pointer pb-1.5 hover:font-bold"
+  //       rel="noopener noreferrer"
+  //       href="/product"
+  //     >
+  //       Product Overview
+  //     </a>
+  //   ),
+  // },
   {
     key: "2",
     label: (
       <a
         className="bold text-xl text-black cursor-pointer pb-1.5 hover:font-bold"
         rel="noopener noreferrer"
-        href="/compliance"
+        href="/compliance-qa"
       >
         Compliance
       </a>

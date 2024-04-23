@@ -5,7 +5,7 @@ const UserJourney = () => {
     <div className="bg-gradient-to-b from-[#eafaf4] to-white">
       <div className="max-container padding-container mx-auto lg:py-20 xs:py-10">
         <h3 className="mb-6 lg:text-3xl xs:text-xl font-bold text-center text-green-50">
-          Discover RPLiQ: The Future of RPL, Simplified and Streamlined
+          Discover RPLiQ Features: From User Journey until Reporting
         </h3>
 
         <div className="grid-cols-1 sm:grid md:grid-cols-5">

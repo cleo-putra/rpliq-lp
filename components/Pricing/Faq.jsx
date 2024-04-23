@@ -4,19 +4,19 @@ import { Collapse } from "antd";
 const items = [
   {
     key: "1",
-    label: "Can RPL iQ be customised to meet the specific needs of our RTOs?",
+    label: "Can RPLiQ be customised to meet the specific needs of our RTOs?",
     children:
-      "Absolutely! RPL iQ is built with customisation in mind. RTOs can tailor documentation templates, set dynamic evidence requirements, customize dashboards, and define user roles, ensuring the platform aligns perfectly with the unique requirements of each organisation.",
+      "Absolutely! RPLiQ is built with customisation in mind. RTOs can tailor documentation templates, set dynamic evidence requirements, customize dashboards, and define user roles, ensuring the platform aligns perfectly with the unique requirements of each organisation.",
   },
   {
     key: "2",
-    label: "How does RPL iQ ensure compliance with ASQA standards?",
+    label: "How does RPLiQ ensure compliance with ASQA standards?",
     children:
       "The platform is built with a meticulous focus on ASQA regulations, aligning its design, templates, and workflows with the specific standards set by the authority. RPL iQ offers customizable templates that adhere to ASQA requirements, ensuring that documentation meets the necessary criteria.",
   },
   {
     key: "3",
-    label: "What features does RPL iQ offer to enhance the student experience?",
+    label: "What features does RPLiQ offer to enhance the student experience?",
     children:
       "The platform enables students to upload evidence seamlessly based on sample industry-specific evidence, enabling the students the the opportunity to showcase their skills and competencies. Students will receive real-time notifications to keep them informed about the status of their assessments, providing transparency and reducing uncertainty.",
   },
