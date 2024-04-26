@@ -17,9 +17,9 @@ export default function Contact() {
         throw new Error(`response status: ${response.status}`);
       }
       const responseData = await response.json();
-      console.log(responseData["message"]);
 
-      alert("Message successfully sent");
+      alert("Thank you, message successfully sent!");
+      window.location.replace('/');
     } catch (err) {
       console.error(err);
       alert("Error, please try resubmitting the form");
@@ -47,6 +47,7 @@ export default function Contact() {
                     placeholder="First Name"
                     id="firstname"
                     name="firstname"
+                    required
                   />
                 </div>
                 <div className="relative mb-2" data-te-input-wrapper-init>
@@ -62,6 +63,7 @@ export default function Contact() {
                     placeholder="Last Name"
                     id="lastname"
                     name="lastname"
+                    required
                   />
                 </div>
                 <div className="relative mb-2" data-te-input-wrapper-init>
@@ -77,6 +79,7 @@ export default function Contact() {
                     placeholder="Email address"
                     id="email"
                     name="email"
+                    required
                   />
                 </div>
                 <div className="relative mb-2" data-te-input-wrapper-init>
@@ -92,6 +95,7 @@ export default function Contact() {
                     placeholder="Phone Number"
                     id="phone"
                     name="phone"
+                    required
                   />
                 </div>
               </div>
@@ -137,8 +141,8 @@ export default function Contact() {
                 ></textarea>
               </div>
 
-              <button className="flexCenter gap-3" type="submit">
-                <label className="font-semibold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
+              <button className="flexCenter gap-3 cursor-pointer" type="submit">
+                <label className="cursor-pointer font-semibold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
                   Submit
                 </label>
               </button>

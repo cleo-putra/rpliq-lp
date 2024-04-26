@@ -4,7 +4,7 @@ const UserJourney = () => {
   return (
     <div className="bg-gradient-to-b from-[#eafaf4] to-white">
       <div className="max-container padding-container mx-auto lg:py-20 xs:py-10">
-        <h3 className="mb-6 lg:text-3xl xs:text-xl font-bold text-center text-green-50">
+        <h3 className="mb-6 lg:text-3xl xs:text-xl font-bold text-center">
           Discover RPLiQ Features: From User Journey until Reporting
         </h3>
 
