@@ -17,7 +17,7 @@ const TablePrice = () => {
           <div className="container px-5 py-10 mx-auto flex flex-wrap">
             <div className="lg:w-2/5  hidden lg:block bg-gray-10">
               <div className="mt-px border-t border-gray-300  border-b border-l rounded-tl-lg rounded-bl-lg overflow-hidden">
-                <div className="bg-gray-10text-center h-20 flex items-end px-4">
+                <div className="bg-gray-10 text-center h-20 flex items-end px-4">
                   <h3 className="tracking-widest font-bold ">Features</h3>
                 </div>
                 <p className="bg-gray-10 text-gray-900 h-12 px-4 flex items-center justify-start -mt-px border-t border-gray-300">

@@ -31,7 +31,7 @@ const items = [
 const CuttingEdge = () => {
  
   return (
-    <div className="bg-white lg:py-24 xs:py-10 padding-container">
+    <div className="padding-container bg-white lg:py-24 xs:py-10 ">
       <div className="mx-auto max-w-7xl">
         <div className="grid sm:grid-cols-1 lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">

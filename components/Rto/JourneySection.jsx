@@ -111,7 +111,7 @@ const JourneySection = () => {
   return (
     <div className="bg-gradient-to-b from-[#eafaf4] to-white flex">
       <div className="max-container padding-container py-8 grid max-w-2xl grid-cols-1">
-      <h3 className="mt-6 text-3xl font-bold text-center">
+      <h3 className="mt-6 md:text-3xl xs:text-2xl font-bold text-center">
           {" "}
           Take control of your RTO's RPL journey by adopting <br/> RPLiQ's
           revolutionary platform
