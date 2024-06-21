@@ -9,14 +9,14 @@ const Price = () => {
             <div className="block h-full rounded-lg shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:rounded-tr-none lg:rounded-br-none bg-green-30">
               <div className="p-6 text-center">
                 <h3 className="mb-2 text-xl uppercase">
-                  <strong>Fixed</strong>
+                  <strong>Starter</strong>
                 </h3>
                 <p className="mb-6 text-sm px-10 font-light">
                   For training organisations who just getting started with
                   project management.
                 </p>
                 <h3 className="mb-6 text-3xl">
-                  <strong>$ 150</strong>
+                  <strong>$ 250</strong>
                   <br />
                   <small className="text-base">Per student, Per course</small>
                 </h3>
@@ -73,14 +73,14 @@ const Price = () => {
             />
             <div className="text-center">
               <h3 className="mb-4 text-xl uppercase">
-                <strong>Premium</strong>
+                <strong>Standard</strong>
               </h3>
               <p className="mb-6 text-sm px-10 font-light">
                 For bigger training organisations that require more advanced
                 system.
               </p>
               <h3 className="mb-6 text-3xl">
-                <strong>$ 250</strong>
+                <strong>$ 300</strong>
                 <br />
                 <small className="text-base">Per student, Per course</small>
               </h3>
@@ -115,19 +115,21 @@ const Price = () => {
             <div className="block h-full rounded-lg bg-green-30 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 lg:rounded-tl-none lg:rounded-bl-none">
               <div className="p-6 text-center">
                 <h3 className="mb-4 text-xl uppercase">
-                  <strong>Enterprise</strong>
+                  <strong>Premium</strong>
                 </h3>
                 <p className="mb-6 text-sm px-10 font-light">
                   For training organisations that need additional support and
                   more complex requirements.
                 </p>
                 <h3 className="mb-6 text-xl">
-                  <strong>Available Upon Request!</strong>
+                  <strong>$ 350</strong>
+                  <br />
+                  <small className="text-base">Per student, Per course</small>
                 </h3>
 
                 <button className="flexCenter mx-auto" type="button">
                   <label className="bold-16 btn_white_green text-xs">
-                    Request Pricing
+                    Start Now
                   </label>
                 </button>
               </div>

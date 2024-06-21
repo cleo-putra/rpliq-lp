@@ -1,6 +1,7 @@
 import CardRto from "@/components/Home/CardRto";
 import PartnerSlider from "@/components/Home/PartnerSlider";
 import Faq from "@/components/Pricing/Faq";
+import NewTablePrice from "@/components/Pricing/NewTablePrice";
 import Price from "@/components/Pricing/Price";
 import TablePrice from "@/components/Pricing/TablePrice";
 
@@ -26,8 +27,10 @@ const Pricing = () => {
       <PartnerSlider />
       {/* FAQ */}
       <Faq />
+
+      <NewTablePrice/>
       {/* TablePrice */}
-      <TablePrice />
+      {/* <TablePrice />*/}
       {/* CardRTo */}
       <CardRto />
     </>
