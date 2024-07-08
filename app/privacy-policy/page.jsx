@@ -407,7 +407,7 @@ const page = () => {
             dedicated privacy team. You can reach us through the following
             contact methods:
           </p>
-          <p className="mb-4">Email: info@rpliq.com.au</p>
+          <p className="mb-4">Email: <a className="text-green-50" href="mailto:info@rpliq.com.au">info@rpliq.com.au</a></p>
           <p className="mb-4">Phone: 1800 000 000</p>
           <p className="mb-4">
             We value your privacy and are committed to addressing any inquiries

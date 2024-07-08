@@ -25,10 +25,10 @@ const Pricing = () => {
       <Price />
       {/* Partner Slider */}
       <PartnerSlider />
+      <NewTablePrice/>
       {/* FAQ */}
       <Faq />
 
-      <NewTablePrice/>
       {/* TablePrice */}
       {/* <TablePrice />*/}
       {/* CardRTo */}
