@@ -33,7 +33,7 @@ export default function Home() {
 
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
                 <button className="flexCenter gap-3" type="button">
-                  <label className="font-semibold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
+                  <label className="font-semibold whitespace-nowrap btn_dark_green text-base">
                     Request a Free Demo
                   </label>
                 </button>

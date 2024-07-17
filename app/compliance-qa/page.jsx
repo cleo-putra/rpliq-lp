@@ -2,12 +2,13 @@ import React from "react";
 import CardRto from "@/components/Home/CardRto";
 import Image from "next/image";
 import PartnerSlider from "@/components/Home/PartnerSlider";
+import Link from "next/link";
 
 const page = () => {
   return (
     <>
       {/* Banner */}
-      <div className="overflow-hidden bg-white py-24 sm:py-32 max-container padding-container">
+      <div className="xs:hidden md:block overflow-hidden bg-white py-24 sm:py-32 max-container padding-container">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4 flex items-center">
             <div className="lg:max-w-xl">
@@ -24,11 +25,13 @@ const page = () => {
               </p>
 
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
-                <button className="flexCenter gap-3" type="button">
-                  <label className="font-semibold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
-                    Request a Free Demo
-                  </label>
-                </button>
+                <Link href={"/contact-us"}>
+                  <button className="flexCenter gap-3" type="button">
+                    <label className="font-bold whitespace-nowrap btn_dark_green text-base cursor-pointer">
+                      Request Free Demo
+                    </label>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -40,6 +43,47 @@ const page = () => {
               alt="Product screenshot"
               className="rounded-x w-max h-max"
             />
+          </div>
+        </div>
+      </div>
+
+      {/* Banner Mobile View */}
+      <div className="md:hidden max-container padding-container bg-white lg:py-24 xs:py-14">
+        <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none">
+          <div className="lg:pr-8 lg:pt-4">
+            <div className="lg:max-w-xl">
+              <mark className="bg-green-30 p-4">
+                Compliance & Quality Assurance
+              </mark>
+              <h2 className="mt-6 text-[34px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
+                RPL Compliance
+              </h2>
+
+              <div className="flex lg:justify-end xs:justify-center my-5">
+                <Image
+                  src="/Group 50.svg"
+                  width={768}
+                  height={470}
+                  alt="Product screenshot"
+                  className="rounded-x w-max h-max"
+                />
+              </div>
+
+              <div className="my-6 text-base leading-8 text-gray-600">
+                RPLiQ mimics the training package rules and requirements to
+                ensure that evidence meets the training package rules and is
+                mapped to unit elements and performance criteria's
+              </div>
+              <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
+                <Link href={"/contact-us"}>
+                  <button className="flexCenter gap-3" type="button">
+                    <label className="font-bold whitespace-nowrap btn_dark_green text-sm cursor-pointer">
+                      Request Free Demo
+                    </label>
+                  </button>
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>

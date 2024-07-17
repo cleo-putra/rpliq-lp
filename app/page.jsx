@@ -8,13 +8,14 @@ import SocialStar from "@/components/Home/SocialStar";
 import Testimonial from "@/components/Home/Testimonial";
 import UserJourney from "@/components/Home/UserJourney";
 import Image from "next/image";
+import Link from "next/link";
 import { Typewriter } from "nextjs-simple-typewriter";
 
 export default function Home() {
   return (
     <>
       {/* Banner */}
-      <div className="max-container padding-container bg-white lg:py-24 xs:py-14">
+      <div className="xs:hidden md:block max-container padding-container bg-white lg:py-24 xs:py-14">
         <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-xl">
@@ -46,11 +47,13 @@ export default function Home() {
                 significantly cutting overhead costs and enhancing productivity.
               </div>
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
-                <button className="flexCenter gap-3" type="button">
-                  <label className="font-bold whitespace-nowrap btn_dark_green lg:text-lg xs:text-xs">
-                    Request Free Demo
-                  </label>
-                </button>
+                <Link href={"/contact-us"}>
+                  <button className="flexCenter gap-3" type="button">
+                    <label className="font-bold whitespace-nowrap btn_dark_green text-base cursor-pointer">
+                      Request Free Demo
+                    </label>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -63,6 +66,61 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Banner Mobile View */}
+      <div className="md:hidden max-container padding-container bg-white lg:py-24 xs:py-14">
+        <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none">
+          <div className="lg:pr-8 lg:pt-4">
+            <div className="lg:max-w-xl">
+              <mark className="bg-green-30 p-4">Cloud-based RPL Software</mark>
+              <h2 className="my-6 text-[28px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
+                RPLiQ: RPL Assessment Management System
+                <br />
+                <Typewriter
+                  words={[
+                    "Revolutionising RPL",
+                    "Automating RPL Assessments",
+                    "Streamlining RPL Processes",
+                    "Online RPL Evidence Submission",
+                    "Accelerating the Student Journey",
+                  ]}
+                  loop={10}
+                  cursor
+                  cursorStyle="_"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={2000}
+                />
+              </h2>
+
+              <div className="flex lg:justify-end xs:justify-center my-5">
+                <img
+                  src="/dashboard-student.png"
+                  alt="Product screenshot"
+                  className="rounded-x w-max h-max "
+                />
+              </div>
+
+              <div className="my-6 text-base leading-8 text-gray-600">
+                Boost Your RTO's Productivity with RPLiQ: The Premier Online RPL
+                System in the VET Sector. Experience unmatched efficiency by
+                automating and simplifying your entire RPL process,
+                significantly cutting overhead costs and enhancing productivity.
+              </div>
+              <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
+                <Link href={"/contact-us"}>
+                  <button className="flexCenter gap-3" type="button">
+                    <label className="font-bold whitespace-nowrap btn_dark_green text-sm cursor-pointer">
+                      Request Free Demo
+                    </label>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       {/* Video */}
       <div className="max-container padding-container">
         <video controls loop autoPlay>

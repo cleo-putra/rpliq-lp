@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const CardRto = () => {
@@ -9,7 +10,8 @@ const CardRto = () => {
         </div>
         <div className="col-span-2 md:px-10 xs:px-4 lg:py-10 xs:py-0 ">
           <h3 className="lg:text-4xl font-bold tracking-tight text-gray-900 xs:text-xl">
-            <span className="text-green-50">Get Going in No Time:</span><br/> Easy-Peasy RPLiQ Setup
+            <span className="text-green-50">Get Going in No Time:</span>
+            <br /> Easy-Peasy RPLiQ Setup
           </h3>
 
           <p className="lg:mt-10 xs:mt-2 lg:text-base xs:text-sm leading-8 text-gray-600">
@@ -19,11 +21,13 @@ const CardRto = () => {
           </p>
 
           <div className="mt-6 mb-2 flex justify-normal gap-4">
-            <button className="flexCenter gap-3" type="button">
-              <label className="font-bold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
-                Get a Free Demo Now
-              </label>
-            </button>
+            <Link href={"/contact-us"}>
+              <button className="flexCenter gap-3" type="button">
+                <label className="font-bold whitespace-nowrap btn_dark_green text-sm cursor-pointer">
+                  Get a Free Demo Now
+                </label>
+              </button>
+            </Link>
           </div>
         </div>
       </div>
