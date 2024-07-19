@@ -55,7 +55,7 @@ const page = () => {
               <mark className="bg-green-30 p-4">
                 Compliance & Quality Assurance
               </mark>
-              <h2 className="mt-6 text-[34px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
+              <h2 className="mt-6 text-[30px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
                 RPL Compliance
               </h2>
 

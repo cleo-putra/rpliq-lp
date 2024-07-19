@@ -10,12 +10,13 @@ import Discover from "@/components/Home/Discover";
 import RealTime from "@/components/Rpl/RealTime";
 import QualificationUnit from "@/components/Rpl/QualificationUnit";
 import CuttingEdge from "@/components/Rpl/CuttingEdge";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
       {/* Banner */}
-      <div className="overflow-hidden bg-white py-24 sm:py-32 max-container padding-container">
+      <div className="xs:hidden md:block overflow-hidden bg-white py-24 sm:py-32 max-container padding-container">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="lg:pr-8 lg:pt-4">
             <div className="lg:max-w-xl">
@@ -32,11 +33,13 @@ export default function Home() {
               </p>
 
               <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
-                <button className="flexCenter gap-3" type="button">
-                  <label className="font-semibold whitespace-nowrap btn_dark_green text-base">
-                    Request a Free Demo
-                  </label>
-                </button>
+                <Link href={"/contact-us"}>
+                  <button className="flexCenter gap-3" type="button">
+                    <label className="font-semibold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
+                      Request a Free Demo
+                    </label>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -48,6 +51,44 @@ export default function Home() {
         </div>
       </div>
 
+      {/* Banner for mobile view */}
+      <div className="md:hidden max-container padding-container bg-white lg:py-24 xs:py-14">
+        <div className="grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none">
+          <div className="lg:pr-8 lg:pt-4">
+            <div className="lg:max-w-xl">
+              <mark className="bg-green-30 p-4">
+                Recognition Prior Learning
+              </mark>
+              <h2 className="mt-6 text-[30px] font-bold text-green-50	leading-snug tracking-wide lg:max-w-lg">
+                Experience The Ease Of RPL With RPLiQ
+              </h2>
+
+              <div className="flex items-center py-5">
+                <video controls loop autoPlay>
+                  <source src="/video/RPL.mp4" type="video/mp4" />
+                </video>
+              </div>
+
+              <div className="my-6 text-base leading-8 text-gray-600">
+                RPLiQ a transformative tool that accelerates qualification
+                attainment, enhances communication between students and RTOs,
+                and ensures compliance with industry regulations.
+              </div>
+              <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
+                <Link href={"/contact-us"}>
+                  <button className="flexCenter gap-3" type="button">
+                    <label className="font-bold whitespace-nowrap btn_dark_green text-sm cursor-pointer">
+                      Request Free Demo
+                    </label>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Features */}
       <RplFeatures />
       {/* Testimonial */}
       <Testimonial />
@@ -177,13 +218,12 @@ export default function Home() {
 
       <Discover />
 
-      <RealTime /> 
-      
+      <RealTime />
+
       {/* Accordion Product */}
       <CuttingEdge />
 
       <QualificationUnit />
-
 
       <CardRto />
     </>
