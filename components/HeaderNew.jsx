@@ -192,9 +192,17 @@ export default function HeadeNew() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a
             href="#"
-            className="text-black bg-green-50 hover:bg-green-50/90 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
+            className="text-black bg-green-50 hover:bg-green-50/90 font-medium rounded-lg text-sm px-4 lg:px-5 mr-4 py-2 lg:py-2.5  focus:outline-none"
           >
             Start Free Trial
+          </a>
+
+          <a
+            href="https://app.rpliq.com.au/"
+            target="_blank"
+            className="text-green-50 bg-black hover:bg-white font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 border-2 border-green-50 focus:outline-none"
+          >
+            Login
           </a>
         </div>
       </nav>
@@ -301,6 +309,14 @@ export default function HeadeNew() {
                   className="text-black bg-green-50 hover:bg-green-50/90 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                 >
                   Start Free Trial
+                </a>
+
+                <a
+                  href="https://app.rpliq.com.au/"
+                  target="_blank"
+                  className="text-green-50 bg-black hover:bg-white font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 border-2 border-green-50 focus:outline-none"
+                >
+                  Login
                 </a>
               </div>
             </div>

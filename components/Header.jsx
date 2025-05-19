@@ -67,7 +67,7 @@ const Header = () => {
               alt="Rpliq Logo"
             />
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              Rpliq
+              RPLiQ
             </span>
           </a>
           <div className="flex items-center lg:order-2">
