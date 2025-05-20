@@ -1,7 +1,6 @@
 // NAVIGATION
 export const NAV_LINKS = [
   { href: "/pricing", key: "pricing", label: "Pricing" },
-  { href: "/", key: "login", label: "Login" },
   { href: "/contact-us", key: "Request Demos", label: "Request Demo" },
 ];
 
@@ -21,7 +20,6 @@ export const FOOTER_LINKS = [
     title: "Quick Links",
     links: [
       { href: "/pricing", key: "pricing", label: "Pricing" },
-      { href: "/", key: "login", label: "Login" },
       { href: "/contact-us", key: "Request Demos", label: "Request Demo" },
     ],
   },

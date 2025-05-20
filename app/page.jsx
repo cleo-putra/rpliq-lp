@@ -59,7 +59,7 @@ export default function Home() {
           </div>
           <div className="flex lg:justify-end xs:justify-center">
             <img
-              src="/dashboard-student.png"
+              src="/home-banner.png"
               alt="Product screenshot"
               className="rounded-x w-max h-max "
             />
@@ -95,7 +95,7 @@ export default function Home() {
 
               <div className="flex lg:justify-end xs:justify-center my-5">
                 <img
-                  src="/dashboard-student.png"
+                  src="/home-banner.png"
                   alt="Product screenshot"
                   className="rounded-x w-max h-max "
                 />
@@ -120,7 +120,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      
+
       {/* Video */}
       <div className="max-container padding-container">
         <video controls loop autoPlay>
